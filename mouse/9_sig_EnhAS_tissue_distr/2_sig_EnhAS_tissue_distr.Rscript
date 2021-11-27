@@ -1,0 +1,26 @@
+#! /home/shiauck/bin/Rscript
+
+AS_type <- c("A5SS", "A3SS", "SE", "RI", "MSE", "MXE", "AFE", "ALE", "ATSS", "ATTS")
+
+counting_mouse_df <- data.frame()
+
+for(i in 1:length(AS_type)) {
+
+   message(paste0("Processing ", AS_type[i], "...\n"))
+
+   mouse_res_f_name <- paste0("sig_EnhAS_full_table.", AS_type[i], ".txt")
+   mouse_res_df <- data.frame(read.table(mouse_res_f_name, header=T, sep="\t"))
+
+   for(i in 4:75) {
+      tmp_df <- mouse_res_df[, c(2,i)]
+      length(unique(tmp_df[which(tmp_df[, 2] == "1"), 1]))
+   }
+
+
+   tmp_df <- as.data.frame(t(sapply(mouse_res_df[, 4:75], FUN=sum)))
+   tmp_df$AS_type <- AS_type[i]
+
+   counting_mouse_df <- rbind(counting_mouse_df, tmp_df)
+}
+print(counting_mouse_df)
+

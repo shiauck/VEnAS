@@ -1,0 +1,46 @@
+#! Rscript
+
+as_type <- c("A5SS", "A3SS", "SE", "RI", "MSE", "MXE", "AFE", "ALE", "ATSS", "ATTS")
+
+for(as_i in seq(1, 5, 1)) {
+      f_name <- paste0(as_type[as_i * 2 - 1], '.concordant.conservation_score.txt')
+      df <- data.frame(read.table(f_name, header=F, sep="\t"))
+      x1 <- df[!is.na(df)]
+
+      f_name <- paste0(as_type[as_i * 2 - 1], '.discordant.conservation_score.txt')
+      df <- data.frame(read.table(f_name, header=F, sep="\t"))
+      x2 <- df[!is.na(df)]
+
+      f_name <- paste0(as_type[as_i * 2 - 1], '.no_significant.conservation_score.txt')
+      df <- data.frame(read.table(f_name, header=F, sep="\t"))
+      x3 <- df[!is.na(df)]
+
+      f_name <- paste0(as_type[as_i * 2], '.concordant.conservation_score.txt')
+      df <- data.frame(read.table(f_name, header=F, sep="\t"))
+      x4 <- df[!is.na(df)]
+
+      f_name <- paste0(as_type[as_i * 2], '.discordant.conservation_score.txt')
+      df <- data.frame(read.table(f_name, header=F, sep="\t"))
+      x5 <- df[!is.na(df)]
+
+      f_name <- paste0(as_type[as_i * 2], '.no_significant.conservation_score.txt')
+      df <- data.frame(read.table(f_name, header=F, sep="\t"))
+      x6 <- df[!is.na(df)]
+
+
+      l <- list(x1, x2, x3, x4, x5, x6)
+#   l <- list(x1, x2)
+
+   png(filename=paste0(as_type[as_i * 2 - 1], '_', as_type[as_i * 2], '.boxplot.png'), width=1024, height=768, bg="white")
+   boxplot(l, names=c(paste0(as_type[as_i * 2 - 1], " Concordant"),
+                       paste0(as_type[as_i * 2 - 1], " Discordant"),
+                       paste0(as_type[as_i * 2 - 1], " Non-significant"),
+                       paste0(as_type[as_i * 2], " Concordant"),
+                       paste0(as_type[as_i * 2], " Discordant"),
+                       paste0(as_type[as_i * 2], " Non-significant")),
+               col=c("magenta", "green", "cyan", "magenta", "green", "cyan"),
+               outline=FALSE)
+   title("Box plots of conservation scores")
+   dev.off()
+}
+

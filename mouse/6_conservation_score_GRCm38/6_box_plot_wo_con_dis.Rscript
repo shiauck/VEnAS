@@ -1,0 +1,45 @@
+#! Rscript
+
+library(ggplot2)
+
+as_type <- c("A5SS", "A3SS", "SE", "RI", "MSE", "MXE", "AFE", "ALE", "ATSS", "ATTS")
+
+plot_df <- data.frame()
+
+for(as_i in seq(1, 10, 1)) {
+
+   f_name <- paste0(as_type[as_i], '.concordant.conservation_score.txt')
+   df <- data.frame(read.table(f_name, header=F, sep="\t"))
+   names(df) <- "conservation_score"
+   df$type   <- as_type[as_i]
+   df$class  <- "Associated"
+   plot_df <- rbind(plot_df, df[!is.na(df$conservation_score), ])
+
+   f_name <- paste0(as_type[as_i], '.discordant.conservation_score.txt')
+   df <- data.frame(read.table(f_name, header=F, sep="\t"))
+   names(df) <- "conservation_score"
+   df$type   <- as_type[as_i]
+   df$class  <- "Associated"
+   plot_df <- rbind(plot_df, df[!is.na(df$conservation_score), ])
+
+   f_name <- paste0(as_type[as_i], '.no_significant.conservation_score.txt')
+   df <- data.frame(read.table(f_name, header=F, sep="\t"))
+   names(df) <- "conservation_score"
+   df$type   <- as_type[as_i]
+   df$class  <- "Non-associated"
+   plot_df <- rbind(plot_df, df[!is.na(df$conservation_score), ])
+}
+
+plot_df$type  <- factor(plot_df$type,  levels=as_type)
+plot_df$class <- factor(plot_df$class, levels=c("Associated", "Non-associated"))
+
+p <- ggplot(data=plot_df, aes(x=class, y=conservation_score))
+p <- p + geom_jitter(aes(colour=class), size = 0.1)
+p <- p + geom_boxplot(outlier.shape=NA)
+p <- p + ylim(-3, 3)
+p <- p + facet_wrap(. ~ type, ncol=5)
+p <- p + scale_x_discrete(guide=guide_axis(n.dodge=2))
+p <- p + theme_bw()
+
+ggsave("6_box_plot_wo_con_dis.png", width=8, height=5, units="in", dpi=300)
+
