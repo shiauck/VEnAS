@@ -1,0 +1,35 @@
+#! /home/shiauck/bin/Rscript
+
+library(dplyr)
+library(ggplot2)
+
+as_type <- c("A5SS", "A3SS", "SE", "RI", "MSE", "MXE", "AFE", "ALE", "ATSS", "ATTS")
+
+plot_df <- data.frame()
+
+for(i in 1:length(as_type)) {
+   f_name <- paste0("res_2tailed/", as_type[i], ".stat.txt")
+   df <- data.frame(read.table(f_name, header=T, sep="\t"))
+
+   pivot_df <- as.data.frame(unique(df[which(df$q_fdr < 0.05), c("Ensembl.Gene.ID", "Enhancer.grp")]) %>%
+                                group_by(Ensembl.Gene.ID) %>%
+                                summarise(enh_no = length(Enhancer.grp)))
+   pivot_df$type <- as_type[i]
+
+   print(as_type[i])
+   print(summary(pivot_df$enh_no))
+
+   plot_df <- rbind(plot_df, pivot_df[, c("type", "enh_no")])
+}
+
+plot_df$type <- factor(plot_df$type, levels = as_type)
+
+p <- ggplot(data = plot_df, aes(x=type, y=enh_no))
+p <- p + geom_boxplot()
+p <- p + ylim(0, 15)
+p <- p + ylab("Number of enhancer")
+p <- p + xlab("AS type")
+p <- p + theme_bw()
+
+ggsave("5_1_1_hist_enh_per_gene.png", width=7, height=5, units="in", dpi=300)
+

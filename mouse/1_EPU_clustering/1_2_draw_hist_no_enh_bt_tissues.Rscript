@@ -1,0 +1,12 @@
+#! /usr/bin/Rscript
+
+library(dplyr)
+
+df <- data.frame(read.table("EPU_all_tissue_enh_grouped_by_hc_limit_1500.txt", header=T, sep="\t"))
+
+res <- df %>% group_by(grp) %>% summarise(n = length(unique(tissue)))
+
+png("no_of_enhancer_shared_bt_tissues.png", width=1024, height=768, units="px")
+hist(res$n, breaks=30, main="No. of enhancer shared between tissues")
+dev.off()
+

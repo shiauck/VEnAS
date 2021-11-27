@@ -1,0 +1,24 @@
+#! /usr/bin/Rscript
+
+library(dplyr)
+
+df <- data.frame(read.table("EPU_all_tissue_enh_grouped_by_hc_limit_1500.txt", header=T, sep="\t"))
+#names(df) <- c("enhancer", "chr_name", "start", "end", "transcript", "gene_name",
+#               "chr", "tss", "strand", "score", "abbr", "grp")
+
+
+res1 <- df %>%
+        group_by(grp, ens_id, tissue, enh_chr) %>%
+        summarise(enhancer_start = min(enh_start),
+                  enhancer_end   = max(enh_end))
+res1 <- as.data.frame(res1)
+res1$name <- paste(res1$grp, res1$tissue, res1$ens_id, sep=";")
+
+res2        <- res1[, c("enh_chr", "enhancer_start", "enhancer_end", "name")]
+names(res2)[1] <- "chr_name"
+res2$score  <- "."
+res2$strand <- "."
+
+write.table(format(res2[, c("chr_name", "enhancer_start", "enhancer_end", "name", "score", "strand")],
+                   scientific=F),
+            file="epu_1500.bed", col.names=F, row.names=F, quote=F, sep="\t")

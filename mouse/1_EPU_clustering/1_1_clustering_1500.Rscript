@@ -1,0 +1,72 @@
+#! /usr/bin/Rscript
+
+library(dplyr)
+library(tidyr)
+
+grouping_len_limit <- 1500
+o_name <- "EPU_all_tissue_enh_grouped_by_hc_limit_1500.txt"
+
+#===load tissue abbr table===
+tissue_list <- "list.txt"
+tissue_df <- data.frame(read.table(tissue_list, header=FALSE, sep="\t"))
+names(tissue_df) <- c("id", "name", "file")
+#===load tissue abbr table===
+
+#===load enhancerAtlas data===
+folder_dir <- "../enhancerAtlas_v2/enhancer_gene_interactions/mouse"
+all_epu_df <- data.frame()
+for(i in 1:length(tissue_df[,1])) {
+   f_name <- paste(folder_dir, "/", tissue_df[i, "file"], sep="")
+   epu_df <- data.frame(read.table(f_name, header=F, sep="\t"))
+   names(epu_df) <- c("info", "score")
+
+   epu_df <- epu_df %>% separate(info, c("epu", "gene_name", "chr", "tss", "strand"), "\\$")
+   epu_df <- epu_df %>% separate(epu, c("epu", "ens_id"), "_")
+   epu_df <- epu_df %>% separate(epu, c("enh_chr", "pos"), ":")
+   epu_df <- epu_df %>% separate(pos, c("enh_start", "enh_end"), "-")
+
+   epu_df$enhancer <- round((as.numeric(epu_df$enh_start) + as.numeric(epu_df$enh_end)) / 2)
+   epu_df$tissue  <- tissue_df[i, "name"]
+
+   all_epu_df <- rbind(all_epu_df, epu_df)
+}
+#===load enhancerAtlas data===
+
+#===define clustering function===
+grouping_enhancer <- function(x) {
+   input_df <- x
+   enhancer_list <- as.numeric(as.character(unique(input_df$enhancer)))
+
+   n <- length(input_df$enhancer)
+   un <- length(unique(input_df$enhancer))
+
+   hc_k <- data.frame()
+
+   if(n >= 2 & un >= 2) {
+      hc <- hclust(dist(enhancer_list), method="complete")
+      hc_k <- data.frame(grp=cutree(hc, h=grouping_len_limit), val=as.numeric(as.character(enhancer_list)))
+   } else {
+      hc_k <- data.frame(grp=rep(1,n), val=as.character(enhancer_list))
+   }
+
+   input_df <- merge(x=input_df, y=unique(hc_k), by.x="enhancer", by.y="val", all.x=TRUE)
+
+   return(input_df)
+}
+#===define clustering function===
+
+chr_list <- unique(all_epu_df$enh_chr)
+
+clustered_df <- data.frame()
+pb <- txtProgressBar(min = 1, max=length(chr_list), style=3)
+for(i in 1:length(chr_list)) {
+	setTxtProgressBar(pb, i)
+	chr_name <- as.character(chr_list[i])
+	clustered_df <<- rbind(clustered_df, grouping_enhancer(all_epu_df[which(all_epu_df$enh_chr==chr_name),]))
+}
+close(pb)
+
+clustered_df$grp <- paste(clustered_df$enh_chr, "_", clustered_df$grp, sep="")
+
+write.table(clustered_df, file=o_name, quote=F, sep="\t", row.name=F, col.names=T)
+

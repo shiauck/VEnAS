@@ -1,0 +1,68 @@
+#! /home/shiauck/bin/Rscript
+
+library(dplyr)
+library(ggplot2)
+
+as_type <- c("A5SS", "A3SS", "SE", "RI", "MSE", "MXE", "AFE", "ALE", "ATSS", "ATTS")
+
+plot_df <- data.frame()
+
+for(i in 1:length(as_type)) {
+   print(paste0("Loading ", as_type[i], " ..."))
+
+   f_name <- paste0("res_2tailed/", as_type[i], ".stat.txt")
+   df <- data.frame(read.table(f_name, header=T, sep="\t"))
+
+   sig_enh_list <- unique(df[which(df$q_fdr < 0.05), "Enhancer.grp"])
+   all_enh_list <- unique(df[, "Enhancer.grp"])
+   nos_enh_list <- all_enh_list[!(all_enh_list %in% sig_enh_list)]
+
+   rm(df)
+   rm(all_enh_list)
+
+   source_f_name <- paste0("1_1_enhancer_ensid_ae_psi.", as_type[i], ".stat.txt")
+   source <- data.frame(read.table(source_f_name, header=T, sep="\t"))
+
+   sig_df <- unique(source[(source$Enhancer.grp %in% sig_enh_list), c("Ensembl.Gene.ID", "Enhancer.grp")])
+   nos_df <- unique(source[(source$Enhancer.grp %in% nos_enh_list), c("Ensembl.Gene.ID", "Enhancer.grp")])
+
+   rm(source)
+
+   sig_pivot_df <- as.data.frame(sig_df %>%
+                                 group_by(Enhancer.grp) %>%
+                                 summarise(gene_no = length(Ensembl.Gene.ID)))
+   sig_pivot_df$class <- "AS associated\nenhancer"
+   sig_pivot_df$type  <- as_type[i]
+
+   print(paste0("  Associated"))
+   print(summary(sig_pivot_df$gene_no))
+
+   plot_df <- rbind(plot_df, sig_pivot_df)
+   rm(sig_df)
+
+   nos_pivot_df <- as.data.frame(nos_df %>%
+                                 group_by(Enhancer.grp) %>%
+                                 summarise(gene_no = length(Ensembl.Gene.ID)))
+   nos_pivot_df$class <- "AS non-associated\nenhancer"
+   nos_pivot_df$type  <- as_type[i]
+
+   print(paste0("  Non-associated"))
+   print(summary(nos_pivot_df$gene_no))
+
+   plot_df <- rbind(plot_df, nos_pivot_df)
+   rm(nos_df)
+}
+
+plot_df$class <- factor(plot_df$class, levels = c("AS associated\nenhancer", "AS non-associated\nenhancer"))
+plot_df$type  <- factor(plot_df$type,  levels = as_type)
+
+p <- ggplot(data = plot_df, aes(x=class, y=gene_no))
+p <- p + geom_boxplot()
+p <- p + facet_wrap(. ~ type)
+p <- p + ylim(0, 50)
+p <- p + ylab("Number of gene")
+p <- p + xlab("AS type")
+p <- p + theme_bw()
+
+ggsave("5_2_2_hist_gene_per_enh_comp_ass_noa.png", width=12, height=7, units="in", dpi=300)
+

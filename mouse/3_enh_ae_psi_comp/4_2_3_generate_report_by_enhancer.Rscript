@@ -1,0 +1,29 @@
+#! /pkg/miniconda/envs/R/bin/Rscript
+
+AS_type <- c("A5SS", "A3SS", "SE", "RI", "MSE", "MXE", "AFE", "ALE", "ATSS", "ATTS")
+
+message(paste("AS type",
+              "# of genes",
+              "q-value (FDR) < 0.05",
+              collapse="\t"))
+
+total_df <- data.frame()
+
+for(AS_i in 1:length(AS_type)) {
+
+   f_name <- paste0("res_2tailed/", AS_type[AS_i], ".stat.txt")
+   df <- data.frame(read.table(f_name, header=T, sep="\t"))
+
+   total_df <- rbind(total_df, df)
+
+   message(paste(AS_type[AS_i],
+                 length(unique(df[, "Enhancer.grp"])),
+                 length(unique(df[which(df$q_fdr < 0.05), "Enhancer.grp"])),
+                 collapse="\t"))
+}
+
+message(paste("Total",
+              length(unique(total_df[, "Enhancer.grp"])),
+              length(unique(total_df[which(total_df$q_fdr < 0.05), "Enhancer.grp"])),
+              collapse="\t"))
+
