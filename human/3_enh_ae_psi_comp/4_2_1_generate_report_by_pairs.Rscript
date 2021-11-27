@@ -1,0 +1,13 @@
+#! /pkg/miniconda/envs/R/bin/Rscript
+
+AS_type <- c("A5SS", "A3SS", "SE", "RI", "MSE", "MXE", "AFE", "ALE", "ATSS", "ATTS")
+
+message(paste("AS type", "# of pairs", "q-value (FDR) < 0.05", collapse="\t"))
+
+for(AS_i in 1:length(AS_type)) {
+
+   f_name <- paste0("res_2tailed/", AS_type[AS_i], ".stat.txt")
+   df <- data.frame(read.table(f_name, header=T, sep="\t"))
+
+   message(paste(AS_type[AS_i], length(df[,1]), length(df[which(df$q_fdr < 0.05), 1]), collapse="\t"))
+}

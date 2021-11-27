@@ -1,0 +1,38 @@
+#! /home/shiauck/bin/Rscript
+
+library(dplyr)
+library(tidyr)
+
+o_name <- "EPU_all_tissue_enh.bed"
+
+#===load tissue abbr table===
+tissue_list <- "list.txt"
+tissue_df <- data.frame(read.table(tissue_list, header=FALSE, sep="\t"))
+names(tissue_df) <- c("id", "name", "file")
+#===load tissue abbr table===
+
+#===load enhancerAtlas data===
+folder_dir <- "../enhancerAtlas_v2/enhancer_gene_interactions/human"
+all_epu_df <- data.frame()
+for(i in 1:length(tissue_df[,1])) {
+   f_name <- paste(folder_dir, "/", tissue_df[i, "file"], sep="")
+   epu_df <- data.frame(read.table(f_name, header=F, sep="\t"))
+   names(epu_df) <- c("info", "score")
+
+   epu_df <- epu_df %>% separate(info, c("epu", "gene_name", "chr", "tss", "strand"), "\\$")
+   epu_df <- epu_df %>% separate(epu, c("epu", "ens_id"), "_")
+   epu_df <- epu_df %>% separate(epu, c("enh_chr", "pos"), ":")
+   epu_df <- epu_df %>% separate(pos, c("enh_start", "enh_end"), "-")
+
+   epu_df$enhancer <- round((as.numeric(epu_df$enh_start) + as.numeric(epu_df$enh_end)) / 2)
+   epu_df$tissue  <- tissue_df[i, "name"]
+
+   all_epu_df <- rbind(all_epu_df, epu_df)
+}
+#===load enhancerAtlas data===
+
+all_epu_df$additional_1 <- "."
+all_epu_df$additional_2 <- "."
+
+write.table(all_epu_df[, c(1, 2, 3, 11, 12, 13)], file=o_name, quote=F, sep="\t", row.name=F, col.names=F)
+

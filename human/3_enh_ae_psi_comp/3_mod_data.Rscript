@@ -1,0 +1,23 @@
+#! /home/shiauck/bin/Rscript
+
+as_type <- c("A5SS", "A3SS", "SE", "RI", "MSE", "MXE", "AFE", "ALE", "ATSS", "ATTS")
+
+for(i in 1:length(as_type)) {
+   message(paste0("Processing ", as_type[i], "..."))
+
+   f_name <- paste0("res_2tailed/3_enhancer_ensid_ae_psi.", as_type[i], ".2tailed.txt")
+   o_name <- paste0("res_2tailed/", as_type[i], ".stat.txt")
+   df <- data.frame(read.table(f_name, header=T, sep="\t"))
+
+   df$Odds.ratio <- df$Non.spliced.without.enhancer*df$Spliced.with.enhancer/df$Spliced.without.enhancer/df$Non.spliced.with.enhancer
+
+   sel_df <- df[which((df$Odds.ratio >= 2 | df$Odds.ratio <= 0.5) &
+                      abs((df$Non.spliced.without.enhancer +
+                           df$Spliced.with.enhancer) -
+                          (df$Spliced.without.enhancer +
+                           df$Non.spliced.with.enhancer)) > 10), ]
+   sel_df$q_fdr <- p.adjust(sel_df$Fisher.P.value, method="fdr")
+
+   write.table(sel_df, file=o_name, row.names=F, col.names=T, quote=F, sep="\t")
+}
+

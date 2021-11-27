@@ -1,0 +1,30 @@
+#! /pkg/miniconda/envs/R/bin/Rscript
+
+#AS_type <- c("A5SS", "A3SS", "SE", "RI", "MSE", "MXE", "AFE", "ALE", "ATSS", "ATTS")
+AS_type <- c("A5SS", "A3SS", "SE", "RI", "MSE", "MXE")
+
+for(AS_i in 1:length(AS_type)) {
+   message(paste0("Processing ", AS_type[AS_i], " ......"))
+
+   f_name <- paste0("res_2tailed/3_enhancer_ensid_ae_psi.", AS_type[AS_i], ".2tailed.txt")
+   o_name <- paste0("res_2tailed/", AS_type[AS_i], ".stat.txt")
+
+   df <- data.frame(read.table(f_name, header=T, sep="\t"))
+
+   df$q_bonferroni <- round(p.adjust(df$Fisher.P.value, "bonferroni"), 6)
+   df$q_fdr <- round(p.adjust(df$Fisher.P.value, "fdr"), 6)
+
+   gene_list <- unique(df$Ensembl.Gene.ID)
+
+   pb <- txtProgressBar(min = 0, max = length(gene_list), style = 3)
+   for(i in 1:length(gene_list)) {
+      setTxtProgressBar(pb, i)
+      q_fdr_by_gene <- round(p.adjust(df[df$Ensembl.Gene.ID==gene_list[i], "Fisher.P.value"], "fdr"), 6)
+      df[which(df$Ensembl.Gene.ID==gene_list[i]), "q_fdr_by_gene"] <- q_fdr_by_gene
+   }
+   close(pb)
+
+   write.table(df, file=o_name, col.names=T, row.names=F, quote=F, sep="\t")
+
+   message("Done")
+}

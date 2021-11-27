@@ -1,0 +1,71 @@
+[1] "Loading A5SS ..."
+[1] "sig:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+  1.000   1.000   2.000   2.919   3.000  26.000
+[1] "All:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+   4.00   37.00   63.50   70.43   95.75  211.00
+[1] "Loading A3SS ..."
+[1] "sig:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+  1.000   1.000   2.000   3.055   3.000  33.000
+[1] "All:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+   2.00   41.00   61.00   67.93   90.00  180.00
+[1] "Loading SE ..."
+[1] "sig:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+  1.000   1.000   1.000   2.381   2.500  45.000
+[1] "All:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+    2.0    30.5    55.0    61.9    82.5   181.0
+[1] "Loading RI ..."
+[1] "sig:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+  1.000   1.000   2.000   4.168   5.000  61.000
+[1] "All:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+   2.00   37.50   61.00   66.98   90.00  211.00
+[1] "Loading MSE ..."
+[1] "sig:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+  1.000   1.000   2.000   3.199   4.000  30.000
+[1] "All:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+   5.00   30.00   51.00   59.59   78.25  178.00
+[1] "Loading MXE ..."
+[1] "sig:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+  1.000   1.000   2.000   3.617   5.000  22.000
+[1] "All:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+   5.00   30.00   50.00   55.99   71.00  165.00
+[1] "Loading AFE ..."
+[1] "sig:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+  1.000   1.000   3.000   5.918   7.000 101.000
+[1] "All:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+   1.00   25.00   45.00   52.52   72.00  218.00
+[1] "Loading ALE ..."
+[1] "sig:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+  1.000   1.000   2.000   3.331   4.000  29.000
+[1] "All:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+   2.00   28.00   49.00   56.83   77.00  211.00
+[1] "Loading ATSS ..."
+[1] "sig:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+  1.000   1.000   3.000   5.923   7.000  87.000
+[1] "All:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+   1.00   26.00   47.00   53.69   72.00  218.00
+[1] "Loading ATTS ..."
+[1] "sig:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+   1.00    1.00    2.00    4.24    5.00   67.00
+[1] "All:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+   2.00   29.00   50.00   57.31   77.00  211.00
+

@@ -1,0 +1,73 @@
+#! /home/shiauck/bin/Rscript
+
+library(dplyr)
+library(ggplot2)
+
+as_type <- c("A5SS", "A3SS", "SE", "RI", "MSE", "MXE", "AFE", "ALE", "ATSS", "ATTS")
+
+plot_df <- data.frame()
+
+new_as_type <- c()
+
+for(i in 1:length(as_type)) {
+   print(paste0("Loading ", as_type[i], " ..."))
+
+   f_name <- paste0("res_2tailed/", as_type[i], ".stat.txt")
+   df <- data.frame(read.table(f_name, header=T, sep="\t"))
+   pivot_df <- as.data.frame(unique(df[which(df$q_fdr < 0.05), c("Ensembl.Gene.ID", "Enhancer.grp")]) %>%
+                                group_by(Enhancer.grp) %>%
+                                summarise(gene_no = length(Ensembl.Gene.ID)))
+   pivot_df$class <- "S"
+   pivot_df$type  <- as_type[i]
+   pivot_df$new_type <- paste0(as_type[i], "\n",
+                               "(n = ", length(unique(df[which(df$q_fdr <= 0.05), "Enhancer.grp"])), ")")
+
+   new_as_type <- c(new_as_type,
+                    paste0(as_type[i], "\n",
+                    "(n = ", length(unique(df[which(df$q_fdr <= 0.05), "Enhancer.grp"])), ")"))
+
+   print("sig:")
+   print(summary(pivot_df$gene_no))
+
+   plot_df <- rbind(plot_df, pivot_df[, c("type", "gene_no", "class", "new_type")])
+
+   sig_enh_list <- unique(df[which(df$q_fdr <= 0.05), "Enhancer.grp"])
+
+   rm(df)
+
+   source_f_name <- paste0("1_1_enhancer_ensid_ae_psi.", as_type[i], ".stat.txt")
+   source <- data.frame(read.table(source_f_name, header=T, sep="\t"))
+
+   ori_df <- unique(source[(source$Enhancer.grp %in% sig_enh_list), c("Ensembl.Gene.ID", "Enhancer.grp")])
+
+   rm(source)
+
+   ori_pivot_df <- as.data.frame(ori_df %>%
+                                 group_by(Enhancer.grp) %>%
+                                 summarise(gene_no = length(Ensembl.Gene.ID)))
+   ori_pivot_df$class <- "N"
+   ori_pivot_df$type  <- as_type[i]
+   ori_pivot_df$new_type <- paste0(as_type[i], "\n",
+                                   "(n = ", length(sig_enh_list), ")")
+
+   print("All:")
+   print(summary(ori_pivot_df$gene_no))
+
+   plot_df <- rbind(plot_df, ori_pivot_df[, c("type", "gene_no", "class", "new_type")])
+   rm(ori_df)
+}
+
+plot_df$class <- factor(plot_df$class, levels = c("N", "S"))
+plot_df$type  <- factor(plot_df$type,  levels = as_type)
+plot_df$new_type  <- factor(plot_df$new_type, levels = new_as_type)
+
+p <- ggplot(data = plot_df, aes(x=class, y=gene_no))
+p <- p + facet_wrap(.~new_type, ncol=10)
+p <- p + geom_boxplot(outlier.shape = NA)
+p <- p + coord_cartesian(ylim = c(0, 25))
+p <- p + xlab("")
+p <- p + ylab("Number of gene")
+p <- p + theme_bw()
+
+ggsave("5_2_3_box_gene_per_enh_comp_ass_all.png", width=12, height=2, units="in", dpi=300)
+

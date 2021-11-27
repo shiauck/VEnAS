@@ -1,0 +1,31 @@
+[1] "A5SS"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+  1.000   1.000   2.000   2.919   3.000  26.000
+[1] "A3SS"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+  1.000   1.000   2.000   3.055   3.000  33.000
+[1] "SE"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+  1.000   1.000   1.000   2.381   2.500  45.000
+[1] "RI"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+  1.000   1.000   2.000   4.168   5.000  61.000
+[1] "MSE"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+  1.000   1.000   2.000   3.199   4.000  30.000
+[1] "MXE"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+  1.000   1.000   2.000   3.617   5.000  22.000
+[1] "AFE"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+  1.000   1.000   3.000   5.918   7.000 101.000
+[1] "ALE"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+  1.000   1.000   2.000   3.331   4.000  29.000
+[1] "ATSS"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+  1.000   1.000   3.000   5.923   7.000  87.000
+[1] "ATTS"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+   1.00    1.00    2.00    4.24    5.00   67.00
+
