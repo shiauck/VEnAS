@@ -1,0 +1,11 @@
+GSM910576	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H3K4me1 in Human Pancreas Tissue; renlab.H3K4me1.STL003PA.01.01		Histone	
+GSM1013172	GSE16256	Reference Epigenome: ChIP-Seq Input from Human Pancreas Tissue; renlab.Input.STL002PA.01.01	input		
+GSM906419	GSE16256	Reference Epigenome: ChIP-Seq Input from Human Pancreas Tissue; renlab.Input.STL003PA.01.01	input		
+GSM1013149	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H3K4me1 in Human Pancreas Tissue; renlab.H3K4me1.STL002PA.01.01		Histone	
+GSM906397	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H3K27ac in Human Pancreas Tissue; renlab.H3K27ac.STL003PA.01.01		Histone	
+GSM1013129	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H3K27ac in Human Pancreas Tissue; renlab.H3K27ac.STL002PA.01.01		Histone	
+GSM1027335	GSE18927	Chromatin accessibility assay of Pancreas; DNase.DS20842		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM1027326	GSE18927	Chromatin accessibility assay of Pancreas; DNase.DS20753		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM1006871	GSE33213	UT-A_ChipSeq_Pancreas_OC_Input	input		
+GSM1011129	GSE35239	UNC_FaireSeq_Pancreas_OC		FAIRE	
+FANTOM5				CAGE	 hg19

@@ -1,0 +1,11 @@
+GSM1003814	GSE40869,GSE51341	UW_DnaseDgf_B-cell_(CD19+)_adult-8wks		DHS	
+GSM1014190	GSE37074,GSE49847,GSE51336	UW_DnaseSeq_B-cell_(CD19+)_adult-8wks_C57BL/6		DHS	
+GSM765565	GSE30858,GSE30859	ID2-H3K4me1-120h, biological replicate 1		H3K4me1	
+GSM765568	GSE30858,GSE30859	ID2-H3K4me1-120h.new, biological replicate 2		H3K4me1	
+GSM1701800	GSE69475,GSE69478	Mouse preB-R2(R2ko) J4		RAG2	 GRCm38p2/mm10 for mouse and  GRCh37/hg19 for human,
+GSM1701796	GSE69475,GSE69478	Mouse preB-R1(BD) I3		RAG1	 GRCm38p2/mm10 for mouse and  GRCh37/hg19 for human,
+GSM1701799	GSE69475,GSE69478	Mouse preB-R2(BD) I4		RAG2	 GRCm38p2/mm10 for mouse and  GRCh37/hg19 for human,
+GSM1701797	GSE69475,GSE69478	Mouse preB-R1(R1ko) K1		RAG1	 GRCm38p2/mm10 for mouse and  GRCh37/hg19 for human,
+GSM1701801	GSE69475,GSE69478	Mouse preB-R2(wt) H4		RAG2	 GRCm38p2/mm10 for mouse and  GRCh37/hg19 for human,
+GSM1701798	GSE69475,GSE69478	Mouse preB-R1(R1ko) K2		RAG1	 GRCm38p2/mm10 for mouse and  GRCh37/hg19 for human,
+FANTOM5				CAGE	 mm9

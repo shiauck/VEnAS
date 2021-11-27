@@ -1,0 +1,40 @@
+GSM468198	GSE18886	PML_ChIP-seq_NB4_24hoursATRA_JM19		PML	
+GSM468180	GSE18886	PML_ChIP-seq_NB4_noATRA, JM1a and JM1b	GSM468219	PML	
+GSM468181	GSE18886	RXR_ChIP-seq_NB4_noATRA, JM2a and JM2b	GSM468219	RXR	
+GSM468189	GSE18886	RNApolII_ChIP-seq_NB4_noATRA_JM10	GSM468219	POL2	
+GSM468199	GSE18886	RXR_ChIP-seq_NB4_24hoursATRA_JM20		RXR	
+GSM468182	GSE18886	RAR_ChIP-seq_NB4_noATRA, JM3	GSM468219	RAR	
+GSM468196	GSE18886	DNAme_MeCap-seq_NB4_noATRA_JM17	no	MethylCap	
+GSM468200	GSE18886	RAR_ChIPseq_NB4_24hoursATRA_JM21		RAR	
+GSM468219	GSE18886	GenomicDNA_NB4_noATRA_JM40	input		
+GSM468197	GSE18886	DNAme_MeCap-seq_NB4_48hoursATRA_JM18	no	MethylCap	
+GSM468191	GSE18886	RNApolII_ChIP-seq_NB4_48hoursATRA_JM12		POL2	
+GSM468190	GSE18886	RNApolII_ChIP-seq_NB4_24hoursATRA_JM11		POL2	
+GSM863152	GSE23730	NB4_FLI1(Abcam_ab15289)_no		FLI1	
+GSM1014513	GSE26328	UW_DnaseDgf_NB4		DHS	
+GSM736529	GSE29692	Stam_NB4_2		DHS	
+GSM736604	GSE29692,GSE51336	Stam_NB4_1		DHS	
+GSM749514	GSE30254	HpaII_untreated_NB4_first_NAseq	no	HpaII_untreated_NB4_first_NAseq,SS3aRestriction enzyme treatment of nuclei with HpaII.NA-Seq	
+GSM749515	GSE30254	HpaII_untreated_NB4_duplo_NAseq	no	HpaII_untreated_NB4_duplo_NAseq,SS3bRestriction enzyme treatment of nuclei with HpaII.NA-Seq	
+GSM749510	GSE30254	NlaIII_untreated_NB4_first_NAseq	no	NlaIII_untreated_NB4_first_NAseq,SS1aRestriction enzyme treatment of nuclei with NlaIII.NA-Seq	
+GSM749511	GSE30254	NlaIII_untreated_NB4_duplo_NAseq	no	NlaIII_untreated_NB4_duplo_NAseq,SS1bRestriction enzyme treatment of nuclei with NlaIII.NA-Seq	
+GSM749524	GSE30254	p300_untreated_NB4_ChIPseq		EP300	
+GSM749522	GSE30254	H2A.Z_untreated_NB4_ChIPseq		H2AZ	
+GSM749512	GSE30254	NlaIII_ATRA_NB4_first_NAseq	no	NlaIII_ATRA_NB4_first_NAseq,SS2aRestriction enzyme treatment of nuclei with NlaIII.NA-Seq	
+GSM749518	GSE30254	NlaIII_NB4_genomic_control_NAseq	input		
+GSM749525	GSE30254	H3K4me1_untreated_NB4_ChIPseq		H3K4me1	
+GSM749519	GSE30254	HpaII_NB4_genomic_control_NAseq	input		
+GSM749523	GSE30254	H2A.Zac_untreated_NB4_ChIPseq		H2AZac	
+GSM749516	GSE30254	HpaII_ATRA_NB4_first_NAseq	no	HpaII_ATRA_NB4_first_NAseq,SS4aRestriction enzyme treatment of nuclei with HpaII.NA-Seq	
+GSM749513	GSE30254	NlaIII_ATRA_NB4_duplo_NAseq	no	NlaIII_ATRA_NB4_duplo_NAseq,SS2bRestriction enzyme treatment of nuclei with NlaIII.NA-Seq	
+GSM749517	GSE30254	HpaII_ATRA_NB4_duplo_NAseq	no	HpaII_ATRA_NB4_duplo_NAseq,SS4bRestriction enzyme treatment of nuclei with HpaII.NA-Seq	
+GSM749716	GSE30263	Stam_NB4_Input_1	input		
+GSM935643	GSE31477	Stanford_ChipSeq_NB4_c-Myc_std		c-Myc	
+GSM935644	GSE31477	Stanford_ChipSeq_NB4_Max_std		Max	
+GSM935354	GSE31477	Yale_ChipSeq_NB4_Pol2_std	GSM935359	POL2	
+GSM935359	GSE31477	Yale_ChipSeq_NB4_Input_std	input		
+GSM832462	GSE33664	gisChiaPet_NB4_RNAPII_pilot		POL2	
+GSM945252	GSE35583	UW_ChipSeq_NB4_Input	input		
+GSM1901546	GSE63484,GSE63486	NB4_input DNA	input		 hg19,
+GSM1901547	GSE63484,GSE63486	NB4_JMJD1C _ChIP seq	GSM1901546	JMJD1C	 hg19,
+GSM1901548	GSE63484,GSE63486	NB4_LYL1_ChIP seq	GSM1901546	LYL1	 hg19,

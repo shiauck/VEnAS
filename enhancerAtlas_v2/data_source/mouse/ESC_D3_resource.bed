@@ -1,0 +1,34 @@
+GSM774940	GSE30959,GSE31270	TAF3 Treatment IP, ES Cells		TAF3	
+GSM774944	GSE30959,GSE31270	TBP Treatment IP, ES Cells		TBP	
+GSM774946	GSE30959,GSE31270	PolII Treatment IP, ES Cells		POL2	
+GSM774942	GSE30959,GSE31270	TAF1 Treatment IP, ES Cells		RAF1	
+GSM774945	GSE30959,GSE31270	TBP/PolII Mock IP, ES Cells	input		
+GSM774941	GSE30959,GSE31270	TAF3 Mock IP, ES Cells	input		
+GSM774943	GSE30959,GSE31270	TAF1 Mock IP, ES Cells	input		
+GSM1507449	GSE48519	H3K4me1 ChIP-Seq in tet2-/-, differentiation day 3, biological rep 2		H3K4me1	 mm9,
+GSM1507441	GSE48519	input ChIP-Seq in tet2-/-, differentiation day 3, biological rep 2	input		 mm9,
+GSM1507445	GSE48519	H3K4me1 ChIP-Seq in WT, differentiation day 3, biological rep 2		H3K4me1	 mm9,
+GSM1507447	GSE48519	H3K4me1 ChIP-Seq in tet2-/-, differentiation day 3, biological rep 1		H3K4me1	 mm9,
+GSM1507438	GSE48519	input ChIP-Seq in WT, differentiation day 3, biological rep 1	input		 mm9,
+GSM1507443	GSE48519	H3K4me1 ChIP-Seq in WT, differentiation day 3, biological rep 1		H3K4me1	 mm9,
+GSM1507446	GSE48519	H3K27ac ChIP-Seq in tet2-/-, differentiation day 3, biological rep 1		H3K27ac	 mm9,
+GSM1507442	GSE48519	H3K27ac ChIP-Seq in WT, differentiation day 3, biological rep 1		H3K27ac	 mm9,
+GSM1507439	GSE48519	input ChIP-Seq in WT, differentiation day 3, biological rep 2	input		 mm9,
+GSM1507444	GSE48519	H3K27ac ChIP-Seq in WT, differentiation day 3, biological rep 2		H3K27ac	 mm9,
+GSM1507440	GSE48519	input ChIP-Seq in tet2-/-, differentiation day 3, biological rep 1	input		 mm9,
+GSM1507448	GSE48519	H3K27ac ChIP-Seq in tet2-/-, differentiation day 3, biological rep 2		H3K27ac	 mm9,
+GSM1308182	GSE54103	Halo-Sox2D (Sox2 1 - 120aa)	no	Halo-Sox2D	 mm10,
+GSM1308180	GSE54103	Halo-Sox2		Sox2	 mm10,
+GSM1308181	GSE54103	Halo-Sox2M (M47G:F50:M51G)	no	Halo-Sox2M	 mm10,
+GSM1308179	GSE54103	Sox2		Sox2	 mm10,
+GSM1327309	GSE54963,GSE54985	Brachyury		Brachyury	 mm9,
+GSM1327412	GSE54978,GSE54985	Brachyury ChIPSeq antibody #1		Brachyury	 mm9,
+GSM1327413	GSE54978,GSE54985	Brachyury ChIPSeq antibody #2		Brachyury	 mm9,
+GSM1327411	GSE54978,GSE54985	MockChIPSeq	input		 mm9,
+GSM1537541	GSE62972	Sox2 ChIP-exo		Sox2	 GRCm38,
+GSM1563242	GSE64040	RAD23B_ChIP1		RAD23B	 mm9,
+GSM1563244	GSE64040	RAD23B_IgGs_ChIP2		RAD23B	 mm9,
+GSM1563241	GSE64040	GuineaPig_IgGs_ChIP1	input		 mm9,
+GSM1563243	GSE64040	GuineaPig_IgGs_ChIP2	input		 mm9,
+GSM1819194	GSE70799,GSE70865	HA-Control-for Zfp809	input		 mm9,
+GSM1819195	GSE70799,GSE70865	HA-Zfp809	GSM1819194	Zfp809	 mm9,

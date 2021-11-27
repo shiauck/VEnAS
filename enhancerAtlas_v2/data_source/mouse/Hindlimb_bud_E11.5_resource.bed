@@ -1,0 +1,7 @@
+GSM875387	GSE30641	E11.5_hindlimb_H3K27ac_ChIP_seq_index7_mate		H3K27ac	
+GSM875386	GSE30641	E11.5_hindlimb_ChIP_input_rep4_index12_mate	input		
+GSM1014179	GSE37074,GSE49847,GSE51336	UW_DnaseSeq_HindlimbBud_E11.5_CD-1		DHS	
+GSM1019787	GSE41591	Input_DNA_Rep2	input		 mm9,
+GSM1019785	GSE41591	Input_DNA_Rep1	input		 mm9,
+GSM1019784	GSE41591	Pitx1_ChipSeq_Rep1		Pitx1	 mm9,
+GSM1019786	GSE41591	Pitx1_ChipSeq_Rep2		Pitx1	 mm9,

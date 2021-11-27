@@ -1,0 +1,7 @@
+GSM956030	GSE16256	Reference Epigenome: ChIP-Seq Input from Human Thymus Tissue; renlab.Input.STL001TH.01.01	input		GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM1013125	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H3K27ac in Human Thymus Tissue; renlab.H3K27ac.STL001TH.01.01		Histone	
+GSM1059446	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H3K4me1 in Human Thymus Tissue; renlab.H3K4me1.STL001TH.01.01		Histone	
+GSM1844610	GSE71751,GSE71753	GATA3 ChIP total thymocytes replicate 1	GSM1844609	GATA3	 hg19,
+GSM1844611	GSE71751,GSE71753	GATA3 ChIP total thymocytes replicate 2	GSM1844609	GATA3	 hg19,
+FANTOM5				CAGE	 hg19
+GSM1844609	GSE71751,GSE71753	input sample total thymocytes	input		 hg19,

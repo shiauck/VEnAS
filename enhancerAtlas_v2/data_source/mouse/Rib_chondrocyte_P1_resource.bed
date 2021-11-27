@@ -1,0 +1,7 @@
+GSM1693003	GSE69109,GSE69111	Rib_Chondrocyte_RNA_Pol_II_ChIPseq	GSM1693004	POL2	 mouse mm9,
+GSM1693002	GSE69109,GSE69111	Rib_Chondrocyte_p300_ChIPSeq	GSM1693006	EP300	 mouse mm9,
+GSM1693005	GSE69109,GSE69111	Rib_Chondrocyte_IgG_Control_ChIpseq	input		 mouse mm9,
+GSM1693001	GSE69109,GSE69111	Rib_Chondrocyte_H3K27ac_ChIPSeq	GSM1693004	H3K27ac	 mouse mm9,
+GSM1692996	GSE69109,GSE69111	Rib_Chondrocyte_Sox9_ChIPseq	GSM1693004	Sox9	 mouse mm9,
+GSM1693006	GSE69109,GSE69111	Rib_Chondrocyte_Input_Control_for_p300_ChIPseq	input		 mouse mm9,
+GSM1693004	GSE69109,GSE69111	Rib_Chondrocyte_Input_Control_ChIpseq	input		 mouse mm9,

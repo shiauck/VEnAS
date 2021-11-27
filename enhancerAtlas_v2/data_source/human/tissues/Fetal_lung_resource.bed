@@ -1,0 +1,20 @@
+GSM706855	GSE17312	ChIP-Seq analysis of WCE in human fetal lung cells; DNA_Lib 398	input		
+GSM706853	GSE17312	ChIP-Seq analysis of H3K4me1 in human fetal lung cells; DNA_Lib 392	GSM706855	Histone	
+GSM723025	GSE18927	Digital Genomic Footprinting assay of Fetal Lung; DGF.DS14724		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM595925	GSE18927	Chromatin accessibility assay of Fetal lung tissue; DS14751		DHS	
+GSM595929	GSE18927	Chromatin accessibility assay of Fetal lung tissue; DS14820		DHS	
+GSM595915	GSE18927	Chromatin accessibility assay of Fetal lung tissue; DS13507		DHS	
+GSM595930	GSE18927	Chromatin accessibility assay of Fetal lung tissue; DS15227		DHS	
+GSM665805	GSE18927,GSE51336	Chromatin accessibility assay of Fetal Lung Tissue; DS15461		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM530662	GSE18927,GSE51336	Chromatin accessibility assay of Fetal Lung Primary Tissue; DS12817		DHS	
+GSM595916	GSE18927,GSE51336	Chromatin accessibility assay of Fetal lung tissue; DS13985		DHS	
+GSM595927	GSE18927,GSE51336	Chromatin accessibility assay of Fetal lung tissue; DS14809		DHS	
+GSM595921	GSE18927,GSE51336	Chromatin accessibility assay of Fetal lung tissue; DS14666		DHS	
+GSM530656	GSE18927,GSE51336	Chromatin accessibility assay of Fetal Lung Primary Tissue; DS12646		DHS	
+GSM595924	GSE18927,GSE51336	Chromatin accessibility assay of Fetal lung tissue; DS14724		DHS	
+GSM665806	GSE18927,GSE51336	Chromatin accessibility assay of Fetal Lung Tissue; DS15573		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM669956	GSE19465	ChIP-Seq analysis of WCE in fetal lung cells; Lib:XZ:20100731:07--ChIP:XZ:20100726:07:fetal lung:WCE	input		
+GSM669969	GSE19465	ChIP-Seq analysis of H3K4me1 in fetal lung cells; Lib:XZ:20100731:05--ChIP:XZ:20100726:05:fetal lung:H3K4Me1		Histone	
+GSM621429	GSE19465	ChIP-Seq analysis of H3K4me1 in human fetal lung cells; Lib:XZ:20100129:03--ChIP:XZ:20100125:03:fetal lung:H3K4me1		Histone	
+GSM669993	GSE19465	ChIP-Seq analysis of WCE in fetal lung cells; Lib:XZ:20100731:08--ChIP:XZ:20100726:08:fetal lung:WCE	input		
+FANTOM5				CAGE	 hg19

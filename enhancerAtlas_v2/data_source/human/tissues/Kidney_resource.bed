@@ -1,0 +1,7 @@
+GSM773001	GSE17312	ChIP-Seq analysis of H3K4me1 in human kidney cells; DNA_Lib 335		Histone	 hg19
+GSM773025	GSE17312	ChIP-Seq analysis of WCE in human kidney cells; DNA_Lib 341	input		
+GSM670025	GSE19465	ChIP-Seq analysis of H3K4me1 in adult kidney cells; Lib:XZ:20100827:06--ChIP:XZ:20100824:06:adult kidney:H3K4Me1		Histone	 hg19
+GSM621638	GSE19465	ChIP-Seq analysis of WCE in human adult kidney cells; Lib:XZ:20100423:18--ChIP:XZ:70100407:07:adult kidney:WCE	input		GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM1006868	GSE33213	UT-A_ChipSeq_Kidney_OC_Input	input		
+GSM1011123	GSE35239	UNC_FaireSeq_Kidney_OC		FAIRE	 hg19
+FANTOM5				CAGE	 hg19

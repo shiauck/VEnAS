@@ -1,0 +1,31 @@
+GSM958168	GSE16368	ChIP-Seq input analysis of foreskin fibroblast from skin03 (A15571)	input		
+GSM817246	GSE16368	ChIP-Seq input analysis of foreskin fibroblast from skin01 (A08394)	input		
+GSM941717	GSE16368	H3K4me1 ChIP-Seq analysis of foreskin fibroblast from skin02 (A08395)		H3K4me1	
+GSM817247	GSE16368	ChIP-Seq input analysis of foreskin fibroblast from skin02 (A08400)	input		
+GSM1127060	GSE16368	H3K27ac ChIP-Seq analysis of foreskin fibroblast from skin02 (A18461)		H3K27ac	
+GSM958163	GSE16368	H3K27ac ChIP-Seq analysis of foreskin fibroblast from skin03 (A15570)		H3K27ac	
+GSM1127076	GSE16368	H3K27ac ChIP-Seq analysis of foreskin fibroblast from skin01 (A18460)		H3K27ac	
+GSM958164	GSE16368	H3K4me1 ChIP-Seq analysis of foreskin fibroblast from skin03 (A15565)		H3K4me1	
+GSM817234	GSE16368	H3K4me1 ChIP-Seq analysis of foreskin fibroblast from skin01 (A08389)		H3K4me1	
+GSM909312	GSE18927	Digital Genomic Footprinting assay of Penis Foreskin Fibroblast Primary Cells; DGF.DS18224		DHS	
+GSM774241	GSE18927	Chromatin accessibility assay of Penis Foreskin Fibroblast Primary Cells; DS18229		DHS	
+GSM817170	GSE18927	Chromatin accessibility assay of Penis Foreskin Fibroblast Primary Cells; DS18256		DHS	
+GSM817169	GSE18927	Chromatin accessibility assay of Penis Foreskin Fibroblast Primary Cells; DS18252		DHS	
+GSM774240	GSE18927	Chromatin accessibility assay of Penis Foreskin Fibroblast Primary Cells; DS18224		DHS	
+GSM509048	GSE20309	HumanForeskinFibroblast_Pol3ChIPseq_Rep1		Pol3	
+GSM1014531	GSE26328	UW_DnaseDgf_HFF		DHS	
+GSM1022627	GSE30263	UW_ChipSeq_HFF_InputRep1	input		
+GSM945219	GSE35583	UW_ChipSeq_HFF_Input	input		
+GSM109842	GSE4886	FAIRE performed in human foreskin fibroblast cells crosslinked for 2 minute	no	FAIRE	
+GSM109843	GSE4886	FAIRE performed in human foreskin fibroblast cells crosslinked for 4 minutes	no	FAIRE	
+GSM109844	GSE4886	FAIRE performed in human foreskin fibroblast cells crosslinked for 7 minutes	no	FAIRE	
+GSM109841	GSE4886	FAIRE performed in human foreskin fibroblast cells crosslinked for 1 minute	no	FAIRE	
+GSM1599963	GSE65544,GSE65546	shBptf1+OHT-Myc4		Myc	 hg19,
+GSM1599964	GSE65544,GSE65546	shNt+OHT-Myc2		Myc	 hg19,
+GSM1599965	GSE65544,GSE65546	Input+OHT	input		 hg19,
+GSM2066623	GSE78096	H3K27ac HFFs		H3K27ac	 hg19,
+GSM2066630	GSE78096	H3K4me3 D11, H3K27ac D11, and H3K27me3 D11 input	input		 hg19,
+GSM2066625	GSE78096	H3K27ac D11		H3K27ac	 hg19,
+GSM2066626	GSE78096	H3K4me3 HFFs and H3K27ac HFFs input	input		 hg19,
+GSM2066629	GSE78096	H3K27ac D6 and H3K27me3 D6 input	input		 hg19,
+GSM2066624	GSE78096	H3K27ac D6		H3K27ac	 hg19,

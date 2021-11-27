@@ -1,0 +1,18 @@
+GSM348064	GSE13845	Forebrain_p300_ChIP-seq		EP300	
+GSM912547	GSE37151	mouse_e11.5_forebrain_smarca4-flag	GSM912548	smarca4	 mm9,
+GSM912548	GSE37151	mouse_e11.5_forebrain_control	input		 mm9,
+GSM1371058	GSE37151	mouse_e11.5_forebrain_H3K4me1	GSM1371057	H3K4me1	 mm9,
+GSM1011084	GSE37151	mouse_e11.5_hindbrain_smarca4-flag	GSM912548	smarca4	 mm9,
+GSM1371057	GSE37151	mouse_e11.5_forebrain_inputforH3K4me1H3K4me3H3K27mme3	input		 mm9,
+GSM1052708	GSE42881	mouse_e11.5_forebrain_p300		EP300	 mm9, hg18,
+GSM1179353	GSE48464	FB11-RING1B		RING1B	 mm9,
+GSM1264355	GSE52386	Forebrain E11.5 input Rep2	input		 mm9,
+GSM1264352	GSE52386	Forebrain E11.5 H3K27ac Rep1		H3K27ac	 mm9,
+GSM1264354	GSE52386	Forebrain E11.5 H3K27ac Rep2		H3K27ac	 mm9,
+GSM1264353	GSE52386	Forebrain E11.5 input Rep1	input		 mm9,
+GSM2190963	GSE82361	ChIP-seq from forebrain (ENCLB816SMB)	input		
+GSM2190962	GSE82361	ChIP-seq from forebrain (ENCLB413AUI)	input		
+GSM2191453	GSE82564	ChIP-seq from forebrain (ENCLB189RIH)		H3K27ac	
+GSM2191452	GSE82564	ChIP-seq from forebrain (ENCLB489KMT)		H3K27ac	
+GSM2192545	GSE83066	ChIP-seq from forebrain (ENCLB570IQR)		H3K4me1	
+GSM2192546	GSE83066	ChIP-seq from forebrain (ENCLB702KPF)		H3K4me1	

@@ -1,0 +1,3 @@
+Singular: 16453
+Multiple: 275
+Unknown:  0

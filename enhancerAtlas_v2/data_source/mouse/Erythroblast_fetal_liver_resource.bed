@@ -1,0 +1,33 @@
+GSM464635	GSE18720,GSE51338	WT no AB	input		
+GSM464634	GSE18720,GSE51338	WT SCL		SCL	
+GSM464637	GSE18720,GSE51338	RER SCL no AB	no	SCL	
+GSM464636	GSE18720,GSE51338	RER SCL	no	SCL	
+GSM946536	GSE36028,GSE49847,GSE51337,GSE51338	PSU_ChipSeq_Erythrobl_H3K4me1	GSM946544	H3K4me1	
+GSM946544	GSE36028,GSE49847,GSE51337,GSE51338	PSU_ChipSeq_Erythrobl_Input	input		
+GSM923575	GSE36029,GSE49847,GSE51337,GSE51338	PSU_ChipSeq_Erythrobl_GATA1_(SC-265)	GSM946544	GATA1	
+GSM923585	GSE36029,GSE49847,GSE51337,GSE51338	PSU_ChipSeq_Erythrobl_Input	input		
+GSM923582	GSE36029,GSE49847,GSE51337,GSE51338	PSU_ChipSeq_Erythrobl_TAL1_(SC-12984)	GSM946544	TAL1	
+GSM1165498	GSE48020	Eblast_input	input		 mm9,
+GSM1165493	GSE48020	Erythroblast_EKLF	no	HA	 mm9,
+GSM1346568	GSE55825	PJ-3 (Day 2)	no	MNase	 mm10,
+GSM1346566	GSE55825	PJ-1 (Day 0)	no	MNase	 mm10,
+GSM1346567	GSE55825	PJ-2 (Day 1)	no	MNase	 mm10,
+GSM2077298	GSE78800,GSE78835	Fetal liver Knockout of alpha globin regulatory element R1, biological replicate 2 [ATAC-seq]		DHS	 mm9,
+GSM2077312	GSE78800,GSE78835	Fetal liver Knockout of alpha globin regulatory elements R2 and R3 biological replicate 3 [ATAC-seq]		DHS	 mm9,
+GSM2077306	GSE78800,GSE78835	Fetal liver Knockout of alpha globin regulatory element R4, biological replicate 2 [ATAC-seq]		DHS	 mm9,
+GSM2077301	GSE78800,GSE78835	Fetal liver Knockout of alpha globin regulatory element R3, biological replicate 1 [ATAC-seq]		DHS	 mm9,
+GSM2077305	GSE78800,GSE78835	Fetal liver Knockout of alpha globin regulatory element R4, biological replicate 1 [ATAC-seq]		DHS	 mm9,
+GSM2077297	GSE78800,GSE78835	Fetal liver Knockout of alpha globin regulatory element R1, biological replicate 1 [ATAC-seq]		DHS	 mm9,
+GSM2077300	GSE78800,GSE78835	Fetal liver Knockout of alpha globin regulatory element R2, biological replicate 2 [ATAC-seq]		DHS	 mm9,
+GSM2077302	GSE78800,GSE78835	Fetal liver Knockout of alpha globin regulatory element R3, biological replicate 2 [ATAC-seq]		DHS	 mm9,
+GSM2077307	GSE78800,GSE78835	Fetal liver Knockout of alpha globin regulatory elements R1 and R2 biological replicate 1 [ATAC-seq]		DHS	 mm9,
+GSM2077311	GSE78800,GSE78835	Fetal liver Knockout of alpha globin regulatory elements R2 and R3 biological replicate 2 [ATAC-seq]		DHS	 mm9,
+GSM2077304	GSE78800,GSE78835	Fetal liver Knockout of alpha globin regulatory element Rm, biological replicate 2 [ATAC-seq]		DHS	 mm9,
+GSM2077308	GSE78800,GSE78835	Fetal liver Knockout of alpha globin regulatory elements R1 and R2 biological replicate 2 [ATAC-seq]		DHS	 mm9,
+GSM2077303	GSE78800,GSE78835	Fetal liver Knockout of alpha globin regulatory element Rm, biological replicate 1 [ATAC-seq]		DHS	 mm9,
+GSM2077310	GSE78800,GSE78835	Fetal liver Knockout of alpha globin regulatory elements R2 and R3 biological replicate 1 [ATAC-seq]		DHS	 mm9,
+GSM2077315	GSE78800,GSE78835	Fetal liver Knockout of alpha globin Wild type litter mate replicate 3 [ATAC-seq]		DHS	 mm9,
+GSM2077309	GSE78800,GSE78835	Fetal liver Knockout of alpha globin regulatory elements R1 and R2 biological replicate 3 [ATAC-seq]		DHS	 mm9,
+GSM2077299	GSE78800,GSE78835	Fetal liver Knockout of alpha globin regulatory element R2, biological replicate 1 [ATAC-seq]		DHS	 mm9,
+GSM2077314	GSE78800,GSE78835	Fetal liver Knockout of alpha globin Wild type litter mate replicate 2 [ATAC-seq]		DHS	 mm9,
+GSM2077313	GSE78800,GSE78835	Fetal liver Knockout of alpha globin Wild type litter mate replicate 1 [ATAC-seq]		DHS	 mm9,

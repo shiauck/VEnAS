@@ -1,0 +1,18 @@
+GSM956008	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H3K27ac in Neural Progenitor Cells; renlab.H3K27ac.NPC.05.01		H3K27ac	
+GSM767355	GSE16256	Reference Epigenome: ChIP-Seq Input from Neural Progenitor Cells; renlab.Input.NPC.01.01	input		
+GSM818040	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H3K4me1 in Neural Progenitor Cells; renlab.H3K4me1.NPC.02.01		H3K4me1	
+GSM818039	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H3K4me1 in Neural Progenitor Cells; renlab.H3K4me1.NPC.01.01		H3K4me1	
+GSM818063	GSE16256	Reference Epigenome: ChIP-Seq Input from Neural Progenitor Cells; renlab.Input.NPC.03.01	input		
+GSM956029	GSE16256	Reference Epigenome: ChIP-Seq Input from Neural Progenitor Cells; renlab.Input.NPC.04.01	input		
+GSM767356	GSE16256	Reference Epigenome: ChIP-Seq Input from Neural Progenitor Cells; renlab.Input.NPC.02.01	input		
+GSM818030	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H3K23ac in Neural Progenitor Cells; renlab.H3K23ac.NPC.01.01	no	H3K23ac, Upstate, 07-355, 27133	
+GSM753429	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H3K27ac in Neural Progenitor Cells; renlab.H3K27ac.NPC.01.01		H3K27ac	
+GSM818031	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H3K27ac in Neural Progenitor Cells; renlab.H3K27ac.NPC.03.01		H3K27ac	
+GSM896162	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H3K27ac in Neural Progenitor Cells; renlab.H3K27ac.NPC.04.01		H3K27ac	
+GSM1013146	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H3K4me1 in Neural Progenitor Cells; renlab.H3K4me1.NPC.03.01		H3K4me1	
+GSM767343	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H3K27ac in Neural Progenitor Cells; renlab.H3K27ac.NPC.02.01		H3K27ac	
+GSM818062	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H4K91ac in Neural Progenitor Cells; renlab.H4K91ac.NPC.01.01	no	H4K91ac, Abcam, ab4627, 82963	
+GSM878615	GSE18927	Chromatin accessibility assay of H1 Derived Neuronal Progenitor Cultured Cells; DS18739		DHS	
+GSM906379	GSE18927	Chromatin accessibility assay of H1 Derived Neuronal Progenitor Cultured Cells; DS20153		DHS	
+GSM1191934	GSE48996	NPC normal IgG ChIP-Seq	input		 GRCh37,
+GSM1191933	GSE48996	NPC Nup98-IgG ChIP-Seq	GSM1191934	Nup98	 GRCh37,

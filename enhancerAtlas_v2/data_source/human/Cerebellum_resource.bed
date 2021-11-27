@@ -1,0 +1,10 @@
+GSM1008583	GSE32970	Duke_DnaseSeq_Cerebellum_OC		DHS	
+GSM1119262	GSE40465	Mus_Musculus - Cerebellum, H3K27ac ChIP	no	Histone	 hg19, mm9, rn4,
+GSM1423170	GSE40465	Region_40 - Cerebellum, Brain1, Input	input		 hg19, mm9, rn4,
+GSM1119154	GSE40465	Region_40 - Cerebellum, Brain1, H3K27ac ChIP	GSM1423170	Histone	 hg19, mm9, rn4,
+GSM1119254	GSE40465	Region_40 - Cerebellum, Brain6, H3K27ac ChIP	GSM1423170	Histone	 hg19, mm9, rn4,
+GSM1119212	GSE40465	Region_40 - Cerebellum, Brain2, H3K27ac ChIP	GSM1423170	Histone	 hg19, mm9, rn4,
+GSM1660047	GSE67978	H3K27ac Human Brain Cerebellum HS2		Histone	 hg38, rheMac3, panTro4, mm10,
+GSM1660046	GSE67978	H3K27ac Human Brain Cerebellum HS1		Histone	 hg38, rheMac3, panTro4, mm10,
+GSM1660048	GSE67978	H3K27ac Human Brain Cerebellum HS4		Histone	 hg38, rheMac3, panTro4, mm10,
+FANTOM5				CAGE	 hg19

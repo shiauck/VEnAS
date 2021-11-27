@@ -1,0 +1,25 @@
+GSM772733	GSE17312	ChIP-Seq analysis of WCE in human fetal kidney cells; DNA_Lib 464	input		
+GSM1024607	GSE18927	Chromatin accessibility assay of Fetal Kidney, Right; DS20917		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM1027337	GSE18927	Chromatin accessibility assay of Fetal Kidney, Right; DNase.DS20951		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM665821	GSE18927	Chromatin accessibility assay of Fetal Kidney_Right Tissue; DS16441		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM1220602	GSE18927	Chromatin accessibility assay of Fetal Kidney; DS17068		DHS	
+GSM665816	GSE18927	Chromatin accessibility assay of Fetal Kidney Tissue; DS16139		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM774221	GSE18927	Chromatin accessibility assay of Fetal Kidney; DS17753		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM1220603	GSE18927	Chromatin accessibility assay of Fetal Kidney; DS20988		DHS	
+GSM1102740	GSE18927	Digital Genomic Footprinting assay of Fetal Kidney; DGF.DS20786		DHS	
+GSM493385	GSE18927	Chromatin accessibility assay of Fetal Kidney Primary Tissue; DS10986		DHS	
+GSM701515	GSE18927	Chromatin accessibility assay of Fetal Kidney; DS17522		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM665833	GSE18927	Chromatin accessibility assay of Fetal Kidney_Right Tissue; DS16801		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM1024608	GSE18927	Chromatin accessibility assay of Fetal Kidney; DS20987		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM817180	GSE18927	Chromatin accessibility assay of Fetal Kidney, Right; DS18463		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM817159	GSE18927	Chromatin accessibility assay of Fetal Kidney; DS16837		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM1027340	GSE18927	Chromatin accessibility assay of Fetal Kidney, Right; DNase.DS21044		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM817163	GSE18927,GSE51336	Chromatin accessibility assay of Fetal Kidney, Right; DS17144		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM1027346	GSE18927,GSE51336	Chromatin accessibility assay of Fetal Kidney, Right; DNase.DS21340		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM665810	GSE18927,GSE51336	Chromatin accessibility assay of Fetal Kidney_Right Tissue; DS15651		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM878666	GSE18927,GSE51336	Chromatin accessibility assay of Fetal Kidney; DS20564		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM530655	GSE18927,GSE51336	Chromatin accessibility assay of Fetal Kidney Primary Tissue; DS12635		DHS	
+GSM1027342	GSE18927,GSE51336	Chromatin accessibility assay of Fetal Kidney; DNase.DS21096		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM1027329	GSE18927,GSE51336	Chromatin accessibility assay of Fetal Kidney; DNase.DS20786		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM621409	GSE19465	ChIP-Seq analysis of H3K4me1 in human fetal kidney cells; Lib:XZ:20100129:10--ChIP:XZ:20100125:10:fetal kidney:H3K4me1		Histone	
+FANTOM5				CAGE	 hg19

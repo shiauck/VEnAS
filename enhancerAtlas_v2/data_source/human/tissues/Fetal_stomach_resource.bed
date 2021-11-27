@@ -1,0 +1,17 @@
+GSM1102808	GSE18927	ChIP-Seq Input of Fetal Stomach; Histone.DS22596	input		
+GSM701521	GSE18927	Chromatin accessibility assay of Fetal Stomach; DS17659		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM1102794	GSE18927	Histone H3K4me1 ChIP-Seq of Fetal Stomach; Histone.DS22597		Histone	
+GSM1027331	GSE18927	Chromatin accessibility assay of Fetal Stomach; DNase.DS20791		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM1059532	GSE18927	Digital Genomic Footprinting assay of Fetal Stomach Tissue; DGF.DS17878		DHS	
+GSM1102783	GSE18927	Histone H3K27ac ChIP-Seq of Fetal Stomach; Histone.DS22929		Histone	
+GSM1024606	GSE18927	Chromatin accessibility assay of Fetal Stomach; DS19933		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM701538	GSE18927,GSE51336	Chromatin accessibility assay of Fetal Stomach; DS17878		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM817199	GSE18927,GSE51336	Chromatin accessibility assay of Fetal Stomach; DS18821		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM774212	GSE18927,GSE51336	Chromatin accessibility assay of Fetal Stomach; DS17172		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM878660	GSE18927,GSE51336	Chromatin accessibility assay of Fetal Stomach; DS20349		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM878665	GSE18927,GSE51336	Chromatin accessibility assay of Fetal Stomach; DS20546		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM1027318	GSE18927,GSE51336	Chromatin accessibility assay of Fetal Stomach; DNase.DS20079		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM774202	GSE18927,GSE51336	Chromatin accessibility assay of Fetal Stomach; DS16530		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM774232	GSE18927,GSE51336	Chromatin accessibility assay of Fetal Stomach; DS17963		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM817173	GSE18927,GSE51336	Chromatin accessibility assay of Fetal Stomach; DS18389		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+FANTOM5				CAGE	 hg19

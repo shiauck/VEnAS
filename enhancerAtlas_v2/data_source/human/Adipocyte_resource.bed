@@ -1,0 +1,8 @@
+GSM906394	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H3K27ac in Human Adipose Tissue; renlab.H3K27ac.STL003FT.01.01	GSM906416	H3K27ac	
+GSM906416	GSE16256	Reference Epigenome: ChIP-Seq Input from Human Adipose Tissue; renlab.Input.STL003FT.01.01	input		
+GSM916066	GSE17312	ChIP-Seq analysis of H3K27ac in human AdiposeNuclei cells; DNA_Lib 1764		H3K27ac	
+GSM599839	GSE24326	HSF1_ChIPSeq	GSM599840	HSF1	
+GSM599838	GSE24326	C/EBPa_ChIPSeq	GSM599840	CEBPA	
+GSM599840	GSE24326	IgG_control	input		
+GSM599837	GSE24326	E2F4_ChIPSeq	GSM599840	E2F4	
+FANTOM5				CAGE	 hg19

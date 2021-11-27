@@ -1,0 +1,24 @@
+GSM706856	GSE17312	ChIP-Seq analysis of WCE in human fetal heart cells; DNA_Lib 399	input		
+GSM772732	GSE17312	ChIP-Seq analysis of H3K4me1 in human fetal heart cells; DNA_Lib 466		Histone	
+GSM706848	GSE17312	ChIP-Seq analysis of H3K4me1 in human fetal heart cells; DNA_Lib 395		Histone	
+GSM665817	GSE18927	Chromatin accessibility assay of Fetal Heart Tissue; DS16146		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM665831	GSE18927	Chromatin accessibility assay of Fetal Heart Tissue; DS16621		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM665811	GSE18927	Chromatin accessibility assay of Fetal Heart Tissue; DS15839		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM723023	GSE18927	Digital Genomic Footprinting assay of Fetal Heart; DGF.DS12531		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM530661	GSE18927,GSE51336	Chromatin accessibility assay of Fetal Heart Primary Tissue; DS12810		DHS	
+GSM878630	GSE18927,GSE51336	Chromatin accessibility assay of Fetal Heart; DS19427		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM665824	GSE18927,GSE51336	Chromatin accessibility assay of Fetal Heart Tissue; DS16500		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM665830	GSE18927,GSE51336	Chromatin accessibility assay of Fetal Heart Tissue; DS16582		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM817220	GSE18927,GSE51336	Chromatin accessibility assay of Fetal Heart; DS19431		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM530654	GSE18927,GSE51336	Chromatin accessibility assay of Fetal Heart Primary Tissue; DS12531		DHS	
+GSM665814	GSE18927,GSE51336	Chromatin accessibility assay of Fetal Heart Tissue; DS16018		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM774203	GSE18927,GSE51336	Chromatin accessibility assay of Fetal Heart; DS16819		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM665809	GSE18927,GSE51336	Chromatin accessibility assay of Fetal Heart Tissue; DS15643		DHS	
+GSM621396	GSE19465	ChIP-Seq analysis of WCE in human fetal heart cells; Lib:XZ:20100129:24--ChIP:XZ:20100125:24:fetal heart:WCE	input		GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM807735	GSE32587	HumanFetaltHeart_acCBP-p300_ChIP-seq		EP300	
+GSM807736	GSE32587	HumanFetaltHeart_polII_ChIP-seq		POL2	
+GSM1598032	GSE63634	Fetal_heart_H3K4me1_rep1		Histone	 hg19,
+GSM1598027	GSE63634	Fetal_heart_H3K27ac_rep2		Histone	 hg19,
+GSM1598026	GSE63634	Fetal_heart_H3K27ac_rep1		Histone	 hg19,
+GSM1598033	GSE63634	Fetal_heart_H3K4me1_rep2		Histone	 hg19,
+FANTOM5				CAGE	 hg19

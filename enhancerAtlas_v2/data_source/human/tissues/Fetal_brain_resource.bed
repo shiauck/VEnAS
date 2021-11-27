@@ -1,0 +1,26 @@
+GSM806942	GSE16368	H3K4me1 ChIP-Seq analysis of fetal brain tissue from HuFNSC01 (A03485)		H3K4me1	hg19
+GSM806934	GSE16368	H3K4me1 ChIP-Seq analysis of fetal brain tissue from HuFNSC02 (A03493)		H3K4me1	hg19
+GSM806948	GSE16368	ChIP-Seq input analysis of fetal brain tissue from HuFNSC01 (A03491)	input		
+GSM817243	GSE16368	ChIP-Seq input analysis of fetal brain tissue from HuFNSC02 (A03499)	input		
+GSM706851	GSE17312	ChIP-Seq analysis of WCE in human fetal brain cells; DNA_Lib 390	input		hg19
+GSM706850	GSE17312	ChIP-Seq analysis of H3K4me1 in human fetal brain cells; DNA_Lib 384		H3K4me1	
+GSM595922	GSE18927	Chromatin accessibility assay of Fetal brain tissue; DS14717		DHS	
+GSM595926	GSE18927	Chromatin accessibility assay of Fetal brain tissue; DS14803		DHS	
+GSM595913	GSE18927	Chromatin accessibility assay of Fetal brain tissue; DS11877		DHS	
+GSM665819	GSE18927,GSE51336	Chromatin accessibility assay of Fetal Brain Tissue; DS16302		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM878650	GSE18927,GSE51336	Chromatin accessibility assay of Fetal Brain; DS20221		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM878652	GSE18927,GSE51336	Chromatin accessibility assay of Fetal Brain; DS20231		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM1027328	GSE18927,GSE51336	Chromatin accessibility assay of Fetal Brain; DNase.DS20780		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM595928	GSE18927,GSE51336	Chromatin accessibility assay of Fetal brain tissue; DS14815		DHS	
+GSM595920	GSE18927,GSE51336	Chromatin accessibility assay of Fetal brain tissue; DS14464		DHS	
+GSM878651	GSE18927,GSE51336	Chromatin accessibility assay of Fetal Brain; DS20226		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM665804	GSE18927,GSE51336	Chromatin accessibility assay of Fetal Brain Tissue; DS15453		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM595923	GSE18927,GSE51336	Chromatin accessibility assay of Fetal brain tissue; DS14718		DHS	
+GSM530651	GSE18927,GSE51336	Chromatin accessibility assay of Fetal Brain Primary Tissue; DS11872		DHS	
+GSM723021	GSE18927,GSE51341	Digital Genomic Footprinting assay of Fetal Brain; DGF.DS11872		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM669944	GSE19465	ChIP-Seq analysis of WCE in fetal brain cells; Lib:XZ:20100731:09--ChIP:XZ:20100726:09:fetal brain:WCE	input		
+GSM1598016	GSE63634	Fetal_brain_H3K27ac_rep1		H3K27ac	 hg19,
+GSM1598022	GSE63634	Fetal_brain_H3K4me1_rep1		H3K4me1	 hg19,
+GSM1598017	GSE63634	Fetal_brain_H3K27ac_rep2		H3K27ac	 hg19,
+GSM1598023	GSE63634	Fetal_brain_H3K4me1_rep2		H3K4me1	 hg19,
+FANTOM5				CAGE	 hg19

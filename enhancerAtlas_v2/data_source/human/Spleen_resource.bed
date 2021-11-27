@@ -1,0 +1,11 @@
+GSM906398	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H3K27ac in Human Spleen Tissue; renlab.H3K27ac.STL003SX.01.01		H3K27ac	
+GSM1013132	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H3K27ac in Human Spleen Tissue; renlab.H3K27ac.STL002SX.01.01		H3K27ac	
+GSM910577	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H3K4me1 in Human Spleen Tissue; renlab.H3K4me1.STL003SX.01.01		H3K4me1	
+GSM906423	GSE16256	Reference Epigenome: ChIP-Seq Input from Human Spleen Tissue; renlab.Input.STL003SX.01.01	input		
+GSM1120351	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H3K4me1 in Human Spleen Tissue; renlab.H3K4me1.STL002SX.01.01		H3K4me1	
+GSM1013174	GSE16256	Reference Epigenome: ChIP-Seq Input from Human Spleen Tissue; renlab.Input.STL002SX.01.01	input		GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM1120338	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H3K27ac in Human Spleen Tissue; renlab.H3K27ac.STL001SX.01.01		H3K27ac	
+GSM1127188	GSE16256	Reference Epigenome: ChIP-Seq Input from Human Spleen Tissue; renlab.Input.STL001SX.01.01	input		GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM1006872	GSE33213	UT-A_ChipSeq_Spleen_OC_Input	input		
+FANTOM5				CAGE	 hg19
+Roadmap				DHS	 hg19

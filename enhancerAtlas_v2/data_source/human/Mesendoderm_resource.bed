@@ -1,0 +1,14 @@
+GSM753446	GSE16256	Reference Epigenome: ChIP-Seq Input from BMP4 Mesendoderm Cells; renlab.Input.BMP4M.01.01	input		
+GSM753447	GSE16256	Reference Epigenome: ChIP-Seq Input from BMP4 Mesendoderm Cells; renlab.Input.BMP4M.02.01	input		
+GSM753425	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H3K27ac in BMP4 Mesendoderm Cells; renlab.H3K27ac.BMP4M.01.01		H3K27ac	
+GSM864802	GSE16256	Reference Epigenome: ChIP-Seq Input from BMP4 Mesendoderm Cells; renlab.Input.BMP4M.04.01	input		
+GSM864037	GSE16256	Reference Epigenome: ChIP-Seq Input from BMP4 Mesendoderm Cells; renlab.Input.BMP4M.03.01	input		
+GSM818025	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H3K23ac in BMP4 Mesendoderm Cells; renlab.H3K23ac.BMP4M.01.01		H3K23ac	
+GSM752978	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H3K4me1 in BMP4 Mesendoderm Cells; renlab.H3K4me1.BMP4M.02.01		H3K4me1	
+GSM753426	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H3K27ac in BMP4 Mesendoderm Cells; renlab.H3K27ac.BMP4M.02.01		H3K27ac	
+GSM864035	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H3K27ac in BMP4 Mesendoderm Cells; renlab.H3K27ac.BMP4M.03.01		H3K27ac	
+GSM752977	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H3K4me1 in BMP4 Mesendoderm Cells; renlab.H3K4me1.BMP4M.01.01		H3K4me1	
+GSM864799	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H3K27ac in BMP4 Mesendoderm Cells; renlab.H3K27ac.BMP4M.04.01		H3K27ac	
+GSM909313	GSE18927	Digital Genomic Footprinting assay of H1 BMP4 Derived Mesendoderm Cultured Cells; DGF.DS19310		DHS	
+GSM817198	GSE18927	Chromatin accessibility assay of H1 BMP4 Derived Mesendoderm Cultured Cells; DS18732		DHS	
+GSM817215	GSE18927	Chromatin accessibility assay of H1 BMP4 Derived Mesendoderm Cultured Cells; DS19310		DHS	

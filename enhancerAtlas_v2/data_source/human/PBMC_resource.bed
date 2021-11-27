@@ -1,0 +1,49 @@
+GSM1127143	GSE16368	H3K4me1 ChIP-Seq analysis of peripheral mononuclear cell from TC015 (A21626)		H3K4me1	
+GSM1127151	GSE16368	ChIP-Seq input analysis of peripheral mononuclear cell from TC015 (A21632)	input		
+GSM1127137	GSE16368	H3K27ac ChIP-Seq analysis of peripheral mononuclear cell from TC016 (A21638)		H3K27ac	
+GSM613894	GSE16368	ChIP-Seq input analysis of peripheral mononuclear cell from TC010 (HS2626)	input		
+GSM613893	GSE16368	ChIP-Seq input analysis of peripheral mononuclear cell from TC010 (HS2625)	input		
+GSM613884	GSE16368	H3K4me1 ChIP-Seq analysis of peripheral mononuclear cell from TC012 (HS2745)		H3K4me1	
+GSM1127145	GSE16368	H3K27ac ChIP-Seq analysis of peripheral mononuclear cell from TC015 (A21631)		H3K27ac	
+GSM1127149	GSE16368	ChIP-Seq input analysis of peripheral mononuclear cell from TC016 (A21639)	input		
+GSM613896	GSE16368	ChIP-Seq input analysis of peripheral mononuclear cell from TC012 (HS2743)	input		
+GSM788070	GSE31755	USC_ChipSeq_PBMC_Input_UCDavis	input		
+GSM788084	GSE31755	USC_ChipSeq_PBMC_H3K4me1_UCDavis		H3K4me1	
+GSM945603	GSE38567	Blood Donor No.5_stimulated PBMCs_IRF5 ChIP-Seq		IRF5	 hg19,
+GSM945607	GSE38567	Blood Donor No.2_non-stimulated PBMCs_STAT4 ChIP-Seq	GSM945613	STAT4	 hg19,
+GSM945613	GSE38567	Combined immunoprecipitated DNA from Blood Donor No.1,2,3_non-stimulated PBMCs_Control IgG ChIP-Seq	input		 hg19,
+GSM945606	GSE38567	Blood Donor No.1_non-stimulated PBMCs_STAT4 ChIP-Seq	GSM945613	STAT4	 hg19,
+GSM945608	GSE38567	Blood Donor No.3_non-stimulated PBMCs_STAT4 ChIP-Seq	GSM945613	STAT4	 hg19,
+GSM945598	GSE38567	Blood Donor No.1_non-stimulated PBMCs_IRF5 ChIP-Seq	GSM945613	IRF5	 hg19,
+GSM945599	GSE38567	Blood Donor No.2_non-stimulated PBMCs_IRF5 ChIP-Seq	GSM945613	IRF5	 hg19,
+GSM945610	GSE38567	Blood Donor No.5_stimulated PBMCs_STAT4 ChIP-Seq		STAT4	 hg19,
+GSM945611	GSE38567	Blood Donor No.5_stimulated PBMCs_STAT4 ChIP-Seq rep		STAT4	 hg19,
+GSM945612	GSE38567	Blood Donor No.6_stimulated PBMCs_STAT4 ChIP-Seq		STAT4	 hg19,
+GSM945600	GSE38567	Blood Donor No.2_non-stimulated PBMCs_IRF5 ChIP-Seq rep	GSM945613	IRF5	 hg19,
+GSM945602	GSE38567	Blood Donor No.4_stimulated PBMCs_IRF5 ChIP-Seq		IRF5	 hg19,
+GSM945605	GSE38567	Blood Donor No.6_stimulated PBMCs_IRF5 ChIP-Seq		IRF5	 hg19,
+GSM945604	GSE38567	Blood Donor No.5_stimulated PBMCs_IRF5 ChIP-Seq rep		IRF5	 hg19,
+GSM945609	GSE38567	Blood Donor No.4_stimulated PBMCs_STAT4 ChIP-Seq		STAT4	 hg19,
+GSM945601	GSE38567	Blood Donor No.3_non-stimulated PBMCs_IRF5 ChIP-Seq	GSM945613	IRF5	 hg19,
+GSM1708263	GSE69749	PBMC_mergedReplicates_sample14		DHS	 hg19,
+GSM1708261	GSE69749	PBMC_mergedReplicates_sample12		DHS	 hg19,
+GSM1708256	GSE69749	PBMC_mergedReplicates_sample7		DHS	 hg19,
+GSM1708269	GSE69749	PBMC_mergedReplicates_sample20		DHS	 hg19,
+GSM1708254	GSE69749	PBMC_mergedReplicates_sample5		DHS	 hg19,
+GSM1708264	GSE69749	PBMC_mergedReplicates_sample15		DHS	 hg19,
+GSM1708252	GSE69749	PBMC_mergedReplicates_sample3		DHS	 hg19,
+GSM1708267	GSE69749	PBMC_mergedReplicates_sample18		DHS	 hg19,
+GSM1708253	GSE69749	PBMC_mergedReplicates_sample4		DHS	 hg19,
+GSM1708258	GSE69749	PBMC_mergedReplicates_sample9		DHS	 hg19,
+GSM1708255	GSE69749	PBMC_mergedReplicates_sample6		DHS	 hg19,
+GSM1708260	GSE69749	PBMC_mergedReplicates_sample11		DHS	 hg19,
+GSM1708265	GSE69749	PBMC_mergedReplicates_sample16		DHS	 hg19,
+GSM1708257	GSE69749	PBMC_mergedReplicates_sample8		DHS	 hg19,
+GSM1708268	GSE69749	PBMC_mergedReplicates_sample19		DHS	 hg19,
+GSM1708259	GSE69749	PBMC_mergedReplicates_sample10		DHS	 hg19,
+GSM1708250	GSE69749	PBMC_mergedReplicates_sample1		DHS	 hg19,
+GSM1708251	GSE69749	PBMC_mergedReplicates_sample2		DHS	 hg19,
+GSM1708266	GSE69749	PBMC_mergedReplicates_sample17		DHS	 hg19,
+GSM1708262	GSE69749	PBMC_mergedReplicates_sample13		DHS	 hg19,
+GSM1782767	GSE70482	Input of ChIP-seq of nan PBMC cells with  - replicate 1	input		 hg19,
+FANTOM5				CAGE	 hg19

@@ -1,0 +1,14 @@
+GSM1135068	GSE37151	mouse_e11.5_hindbrain_ncoa1-flag_control	input		 mm9,
+GSM1135069	GSE37151	mouse_e11.5_hindbrain_ncoa2-flag		ncoa2	 mm9,
+GSM1135073	GSE37151	mouse_e11.5_hindbrain_smarcc2-flag		smarca2	 mm9,
+GSM1135070	GSE37151	mouse_e11.5_hindbrain_ncoa2-flag_control	input		 mm9,
+GSM1135074	GSE37151	mouse_e11.5_hindbrain_smarcc2-flag_control	input		 mm9,
+GSM1135067	GSE37151	mouse_e11.5_hindbrain_ncoa1-flag		ncoa1	 mm9,
+GSM2191208	GSE82454	ChIP-seq from hindbrain (ENCLB837HOC)		H3K27ac	
+GSM2191209	GSE82454	ChIP-seq from hindbrain (ENCLB910IWY)		H3K27ac	
+GSM2191944	GSE82790	ChIP-seq from hindbrain (ENCLB620BTX)	input		
+GSM2191943	GSE82790	ChIP-seq from hindbrain (ENCLB326XAO)	input		
+GSM2192159	GSE82888	ChIP-seq from hindbrain (ENCLB867HLX)		H3K4me1	
+GSM2192160	GSE82888	ChIP-seq from hindbrain (ENCLB172WZZ)		H3K4me1	
+GSM2195820	GSE83173	DNase-seq from hindbrain (ENCLB464GCN)		DHS	
+GSM2195819	GSE83173	DNase-seq from hindbrain (ENCLB774LAD)		DHS	

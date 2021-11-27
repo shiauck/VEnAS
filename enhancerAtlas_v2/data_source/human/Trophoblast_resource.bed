@@ -1,0 +1,18 @@
+GSM818026	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H3K23ac in BMP4 Trophoblast Cells; renlab.H3K23ac.BMP4T.01.01	no	H3K23ac	
+GSM906403	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H3K4me1 in BMP4 Trophoblast Cells; renlab.H3K4me1.BMP4T.03.01		H3K4me1	
+GSM906387	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H2A.Z in BMP4 Trophoblast Cells; renlab.H2A.Z.BMP4T.01.01		H2AZ	
+GSM864803	GSE16256	Reference Epigenome: ChIP-Seq Input from BMP4 Trophoblast Cells; renlab.Input.BMP4T.03.01	input		
+GSM753449	GSE16256	Reference Epigenome: ChIP-Seq Input from BMP4 Trophoblast Cells; renlab.Input.BMP4T.02.01	input		
+GSM908967	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H4K91ac in BMP4 Trophoblast Cells; renlab.H4K91ac.BMP4T.01.01	no	H4K91ac, Abcam, ab4627, 82963	
+GSM753428	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H3K27ac in BMP4 Trophoblast Cells; renlab.H3K27ac.BMP4T.02.01		H3K27ac	
+GSM753436	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H3K4me1 in BMP4 Trophoblast Cells; renlab.H3K4me1.BMP4T.02.01		H3K4me1	
+GSM908937	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H2A.Z in BMP4 Trophoblast Cells; renlab.H2A.Z.BMP4T.02.01		H2AZ	
+GSM753435	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H3K4me1 in BMP4 Trophoblast Cells; renlab.H3K4me1.BMP4T.01.01		H3K4me1	
+GSM864800	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H3K27ac in BMP4 Trophoblast Cells; renlab.H3K27ac.BMP4T.03.01		H3K27ac	
+GSM753448	GSE16256	Reference Epigenome: ChIP-Seq Input from BMP4 Trophoblast Cells; renlab.Input.BMP4T.01.01	input		
+GSM753427	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H3K27ac in BMP4 Trophoblast Cells; renlab.H3K27ac.BMP4T.01.01		H3K27ac	
+GSM956018	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H3K4me1 in BMP4 Trophoblast Cells; renlab.H3K4me1.BMP4T.04.01		H3K4me1	
+GSM818027	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H3K23ac in BMP4 Trophoblast Cells; renlab.H3K23ac.BMP4T.02.01	no	H3K23ac, Millipore, 07-355, 27133	
+GSM906382	GSE18927	Digital Genomic Footprinting assay of H1 BMP4 Derived Trophoblast Cultured Cells; DGF.DS19317		DHS	
+GSM878614	GSE18927	Chromatin accessibility assay of H1 BMP4 Derived Trophoblast Cultured Cells; DS18736		DHS	
+GSM878628	GSE18927	Chromatin accessibility assay of H1 BMP4 Derived Trophoblast Cultured Cells; DS19317		DHS	

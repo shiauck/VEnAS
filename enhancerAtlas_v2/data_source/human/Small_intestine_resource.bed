@@ -1,0 +1,11 @@
+GSM1013131	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H3K27ac in Human Small Intestine Tissue; renlab.H3K27ac.STL002SB.01.01		Histone	
+GSM1127172	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H3K27ac in Human Small Bowel Tissue; renlab.H3K27ac.STL003SB.01.01		Histone	
+GSM915330	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H3K27ac in Human Small Bowel Tissue; renlab.H3K27ac.STL001SB.01.01		Histone	
+GSM915337	GSE16256	Reference Epigenome: ChIP-Seq Input from Human Small Bowel Tissue; renlab.Input.STL001SB.01.01	input		
+GSM956019	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H3K4me1 in Human Small Bowel Tissue; renlab.H3K4me1.STL001SB.01.01		Histone	
+GSM1120350	GSE16256	Reference Epigenome: ChIP-Seq Analysis of H3K4me1 in Human Small Intestine Tissue; renlab.H3K4me1.STL002SB.01.01		Histone	
+GSM1120365	GSE16256	Reference Epigenome: ChIP-Seq Input from Human Small Intestine Tissue; renlab.Input.STL002SB.01.01	input		
+GSM1027327	GSE18927	Chromatin accessibility assay of Small Bowel Mucosa; DNase.DS20770		DHS	GENOME_ NCBI Build GRCh37/UCSC Build hg19,GENOME_ NCBI Build GRCh37/UCSC Build hg19,
+GSM1102739	GSE18927	Digital Genomic Footprinting assay of Small Bowel Mucosa; DGF.DS20770		DHS	
+GSM1011130	GSE35239	UNC_FaireSeq_Small_intestine_OC		FAIRE	
+FANTOM5				CAGE	 hg19
