@@ -1,0 +1,20 @@
+#! /home/shiauck/bin/Rscript
+
+AS_type <- c("A5SS", "A3SS", "SE", "RI", "MSE", "MXE", "AFE", "ALE", "ATSS", "ATTS")
+
+counting_human_df <- data.frame()
+
+for(i in 1:length(AS_type)) {
+
+   message(paste0("Processing ", AS_type[i], "...\n"))
+
+   human_res_f_name <- paste0("sig_EnhAS_full_table.", AS_type[i], ".txt")
+   human_res_df <- data.frame(read.table(human_res_f_name, header=T, sep="\t"))
+
+   tmp_df <- as.data.frame(t(sapply(human_res_df[, 4:87], FUN=sum)))
+   tmp_df$AS_type <- AS_type[i]
+
+   counting_human_df <- rbind(counting_human_df, tmp_df)
+}
+print(counting_human_df)
+

@@ -1,0 +1,561 @@
+   Enhancer_activity.CD14..SRR830946 Enhancer_activity.CD14..SRR830951
+1                                564                               564
+2                                581                               581
+3                                452                               452
+4                               1540                              1540
+5                                495                               495
+6                                379                               379
+7                              10363                             10363
+8                               3355                              3355
+9                              23936                             23936
+10                             13285                             13285
+   Enhancer_activity.CD14..SRR830953 Enhancer_activity.CD19..SRR1609979
+1                                564                                522
+2                                581                                505
+3                                452                                404
+4                               1540                               1269
+5                                495                                445
+6                                379                                258
+7                              10363                               8863
+8                               3355                               2334
+9                              23936                              20466
+10                             13285                              11080
+   Enhancer_activity.CD19..SRR1609980 Enhancer_activity.CD19..SRR1609981
+1                                 522                                522
+2                                 505                                505
+3                                 404                                404
+4                                1269                               1269
+5                                 445                                445
+6                                 258                                258
+7                                8863                               8863
+8                                2334                               2334
+9                               20466                              20466
+10                              11080                              11080
+   Enhancer_activity.CD8..SRR644512 Enhancer_activity.CD8..SRR644514
+1                               381                              381
+2                               411                              411
+3                               340                              340
+4                               950                              950
+5                               384                              384
+6                               197                              197
+7                              7899                             7899
+8                              2130                             2130
+9                             16166                            16166
+10                             7918                             7918
+   Enhancer_activity.CD8..SRR1743975 Enhancer_activity.Fetal_heart.SRR643778
+1                                381                                       0
+2                                411                                       0
+3                                340                                       0
+4                                950                                       0
+5                                384                                       0
+6                                197                                       0
+7                               7899                                       0
+8                               2130                                       0
+9                              16166                                       0
+10                              7918                                       0
+   Enhancer_activity.Fetal_heart.SRR643779
+1                                        0
+2                                        0
+3                                        0
+4                                        0
+5                                        0
+6                                        0
+7                                        0
+8                                        0
+9                                        0
+10                                       0
+   Enhancer_activity.Fetal_heart.SRR1663123
+1                                         0
+2                                         0
+3                                         0
+4                                         0
+5                                         0
+6                                         0
+7                                         0
+8                                         0
+9                                         0
+10                                        0
+   Enhancer_activity.Fetal_kidney.SRR643749
+1                                         0
+2                                         0
+3                                         0
+4                                         0
+5                                         0
+6                                         0
+7                                         0
+8                                         0
+9                                         0
+10                                        0
+   Enhancer_activity.Fetal_kidney.SRR643750
+1                                         0
+2                                         0
+3                                         0
+4                                         0
+5                                         0
+6                                         0
+7                                         0
+8                                         0
+9                                         0
+10                                        0
+   Enhancer_activity.Fetal_kidney.SRR643751
+1                                         0
+2                                         0
+3                                         0
+4                                         0
+5                                         0
+6                                         0
+7                                         0
+8                                         0
+9                                         0
+10                                        0
+   Enhancer_activity.Fetal_stomach.SRR980482
+1                                          0
+2                                          0
+3                                          0
+4                                          0
+5                                          0
+6                                          0
+7                                          0
+8                                          0
+9                                          0
+10                                         0
+   Enhancer_activity.Fetal_stomach.SRR980467
+1                                          0
+2                                          0
+3                                          0
+4                                          0
+5                                          0
+6                                          0
+7                                          0
+8                                          0
+9                                          0
+10                                         0
+   Enhancer_activity.Fetal_stomach.SRR980450
+1                                          0
+2                                          0
+3                                          0
+4                                          0
+5                                          0
+6                                          0
+7                                          0
+8                                          0
+9                                          0
+10                                         0
+   Enhancer_activity.GM10847.SRR998171 Enhancer_activity.GM10847.SRR038446
+1                                  224                                 224
+2                                  214                                 214
+3                                  178                                 178
+4                                  606                                 606
+5                                  150                                 150
+6                                  123                                 123
+7                                 3376                                3376
+8                                 1198                                1198
+9                                 9597                                9597
+10                                6035                                6035
+   Enhancer_activity.GM10847.SRR038447 Enhancer_activity.GM12878.SRR038448
+1                                  224                                 370
+2                                  214                                 360
+3                                  178                                 293
+4                                  606                                 950
+5                                  150                                 290
+6                                  123                                 229
+7                                 3376                                6668
+8                                 1198                                2069
+9                                 9597                               16118
+10                                6035                                9076
+   Enhancer_activity.GM12878.SRR038449 Enhancer_activity.GM12878.SRR307002
+1                                  370                                 370
+2                                  360                                 360
+3                                  293                                 293
+4                                  950                                 950
+5                                  290                                 290
+6                                  229                                 229
+7                                 6668                                6668
+8                                 2069                                2069
+9                                16118                               16118
+10                                9076                                9076
+   Enhancer_activity.GM12891.SRR998239 Enhancer_activity.GM12891.SRR998240
+1                                  481                                 481
+2                                  439                                 439
+3                                  364                                 364
+4                                 1189                                1189
+5                                  338                                 338
+6                                  273                                 273
+7                                 8584                                8584
+8                                 2388                                2388
+9                                20410                               20410
+10                               11060                               11060
+   Enhancer_activity.GM12891.SRR038450 Enhancer_activity.GM12892.SRR998261
+1                                  481                                 479
+2                                  439                                 426
+3                                  364                                 352
+4                                 1189                                1159
+5                                  338                                 333
+6                                  273                                 262
+7                                 8584                                8386
+8                                 2388                                2461
+9                                20410                               20087
+10                               11060                               11124
+   Enhancer_activity.GM12892.SRR998262 Enhancer_activity.GM12892.SRR038451
+1                                  479                                 479
+2                                  426                                 426
+3                                  352                                 352
+4                                 1159                                1159
+5                                  333                                 333
+6                                  262                                 262
+7                                 8386                                8386
+8                                 2461                                2461
+9                                20087                               20087
+10                               11124                               11124
+   Enhancer_activity.GM18505.SRR998294 Enhancer_activity.GM18505.SRR038453
+1                                  259                                 259
+2                                  255                                 255
+3                                  217                                 217
+4                                  749                                 749
+5                                  223                                 223
+6                                  169                                 169
+7                                 4964                                4964
+8                                 1592                                1592
+9                                12464                               12464
+10                                7313                                7313
+   Enhancer_activity.GM18505.SRR038454 Enhancer_activity.GM18526.SRR998311
+1                                  259                                  81
+2                                  255                                  90
+3                                  217                                  74
+4                                  749                                 230
+5                                  223                                  43
+6                                  169                                  34
+7                                 4964                                1161
+8                                 1592                                 438
+9                                12464                                3646
+10                                7313                                2367
+   Enhancer_activity.GM18526.SRR038455 Enhancer_activity.GM18526.SRR038456
+1                                   81                                  81
+2                                   90                                  90
+3                                   74                                  74
+4                                  230                                 230
+5                                   43                                  43
+6                                   34                                  34
+7                                 1161                                1161
+8                                  438                                 438
+9                                 3646                                3646
+10                                2367                                2367
+   Enhancer_activity.GM19099.SRR998345 Enhancer_activity.GM19099.SRR998346
+1                                  209                                 209
+2                                  210                                 210
+3                                  167                                 167
+4                                  572                                 572
+5                                  156                                 156
+6                                   95                                  95
+7                                 3260                                3260
+8                                 1073                                1073
+9                                 9122                                9122
+10                                5838                                5838
+   Enhancer_activity.GM19099.SRR038458 Enhancer_activity.GM19193.SRR998362
+1                                  209                                 158
+2                                  210                                 181
+3                                  167                                 145
+4                                  572                                 509
+5                                  156                                 131
+6                                   95                                  90
+7                                 3260                                2723
+8                                 1073                                 826
+9                                 9122                                7834
+10                                5838                                4919
+   Enhancer_activity.GM19193.SRR998363 Enhancer_activity.GM19193.SRR038459
+1                                  158                                 158
+2                                  181                                 181
+3                                  145                                 145
+4                                  509                                 509
+5                                  131                                 131
+6                                   90                                  90
+7                                 2723                                2723
+8                                  826                                 826
+9                                 7834                                7834
+10                                4919                                4919
+   Enhancer_activity.H1.SRR574820 Enhancer_activity.H1.SRR574821
+1                             581                            581
+2                             593                            593
+3                             496                            496
+4                            1571                           1571
+5                             541                            541
+6                             435                            435
+7                           12543                          12543
+8                            2657                           2657
+9                           25529                          25529
+10                          12554                          12554
+   Enhancer_activity.H1.SRR020287 Enhancer_activity.H9.SRR3573989
+1                             581                             307
+2                             593                             299
+3                             496                             262
+4                            1571                             828
+5                             541                             329
+6                             435                             251
+7                           12543                            6321
+8                            2657                            1630
+9                           25529                           13547
+10                          12554                            7322
+   Enhancer_activity.H9.SRR3573990 Enhancer_activity.H9.SRR067368
+1                              307                            307
+2                              299                            299
+3                              262                            262
+4                              828                            828
+5                              329                            329
+6                              251                            251
+7                             6321                           6321
+8                             1630                           1630
+9                            13547                          13547
+10                            7322                           7322
+   Enhancer_activity.HEK293T.SRR960409 Enhancer_activity.HEK293T.SRR023853
+1                                   86                                  86
+2                                   76                                  76
+3                                   54                                  54
+4                                  255                                 255
+5                                   94                                  94
+6                                   65                                  65
+7                                 1516                                1516
+8                                  401                                 401
+9                                 3570                                3570
+10                                1913                                1913
+   Enhancer_activity.HEK293T.SRR023854 Enhancer_activity.HeLa.S3.SRR891241
+1                                   86                                   0
+2                                   76                                   0
+3                                   54                                   0
+4                                  255                                   0
+5                                   94                                   0
+6                                   65                                   0
+7                                 1516                                   0
+8                                  401                                   0
+9                                 3570                                   0
+10                                1913                                   0
+   Enhancer_activity.HeLa.S3.SRR036660 Enhancer_activity.HeLa.S3.SRR036661
+1                                    0                                   0
+2                                    0                                   0
+3                                    0                                   0
+4                                    0                                   0
+5                                    0                                   0
+6                                    0                                   0
+7                                    0                                   0
+8                                    0                                   0
+9                                    0                                   0
+10                                   0                                   0
+   Enhancer_activity.K562.SRR2921247 Enhancer_activity.K562.SRR2921248
+1                                390                               390
+2                                377                               377
+3                                333                               333
+4                                925                               925
+5                                283                               283
+6                                226                               226
+7                               7325                              7325
+8                               1955                              1955
+9                              16276                             16276
+10                              8041                              8041
+   Enhancer_activity.K562.SRR090233 Enhancer_activity.LHCN.M2.SRR3181980
+1                               390                                  104
+2                               377                                  102
+3                               333                                  138
+4                               925                                  265
+5                               283                                  171
+6                               226                                  132
+7                              7325                                 3161
+8                              1955                                 1450
+9                             16276                                 5484
+10                             8041                                 2931
+   Enhancer_activity.LHCN.M2.SRR3181981 Enhancer_activity.LHCN.M2.SRR3181982
+1                                   104                                  104
+2                                   102                                  102
+3                                   138                                  138
+4                                   265                                  265
+5                                   171                                  171
+6                                   132                                  132
+7                                  3161                                 3161
+8                                  1450                                 1450
+9                                  5484                                 5484
+10                                 2931                                 2931
+   Enhancer_activity.LNCaP.SRR653217 Enhancer_activity.LNCaP.SRR1169709
+1                                344                                344
+2                                351                                351
+3                                304                                304
+4                                962                                962
+5                                282                                282
+6                                207                                207
+7                               6481                               6481
+8                               1738                               1738
+9                              15164                              15164
+10                              8276                               8276
+   Enhancer_activity.LNCaP.SRR1169710 Enhancer_activity.MCF10A.SRR2924724
+1                                 344                                 638
+2                                 351                                 643
+3                                 304                                 588
+4                                 962                                1649
+5                                 282                                 803
+6                                 207                                 666
+7                                6481                               15834
+8                                1738                                4559
+9                               15164                               28531
+10                               8276                               14229
+   Enhancer_activity.MCF10A.SRR2924725 Enhancer_activity.MCF10A.SRR2924726
+1                                  638                                 638
+2                                  643                                 643
+3                                  588                                 588
+4                                 1649                                1649
+5                                  803                                 803
+6                                  666                                 666
+7                                15834                               15834
+8                                 4559                                4559
+9                                28531                               28531
+10                               14229                               14229
+   Enhancer_activity.Melanocyte.SRR2146046
+1                                       21
+2                                       16
+3                                       16
+4                                       47
+5                                       27
+6                                       16
+7                                      442
+8                                       65
+9                                      911
+10                                     298
+   Enhancer_activity.Melanocyte.SRR2146047
+1                                       21
+2                                       16
+3                                       16
+4                                       47
+5                                       27
+6                                       16
+7                                      442
+8                                       65
+9                                      911
+10                                     298
+   Enhancer_activity.Melanocyte.SRR2146048
+1                                       21
+2                                       16
+3                                       16
+4                                       47
+5                                       27
+6                                       16
+7                                      442
+8                                       65
+9                                      911
+10                                     298
+   Enhancer_activity.Pancreatic_islet.SRR1027728
+1                                              0
+2                                              0
+3                                              0
+4                                              0
+5                                              0
+6                                              0
+7                                              0
+8                                              0
+9                                              0
+10                                             0
+   Enhancer_activity.Pancreatic_islet.SRR1027733
+1                                              0
+2                                              0
+3                                              0
+4                                              0
+5                                              0
+6                                              0
+7                                              0
+8                                              0
+9                                              0
+10                                             0
+   Enhancer_activity.Pancreatic_islet.SRR1027738
+1                                              0
+2                                              0
+3                                              0
+4                                              0
+5                                              0
+6                                              0
+7                                              0
+8                                              0
+9                                              0
+10                                             0
+   Enhancer_activity.SGBS_adipocyte.SRR1552539
+1                                            0
+2                                            0
+3                                            0
+4                                            0
+5                                            0
+6                                            0
+7                                            0
+8                                            0
+9                                            0
+10                                           0
+   Enhancer_activity.SGBS_adipocyte.SRR1552540
+1                                            0
+2                                            0
+3                                            0
+4                                            0
+5                                            0
+6                                            0
+7                                            0
+8                                            0
+9                                            0
+10                                           0
+   Enhancer_activity.SGBS_adipocyte.SRR1552541
+1                                            0
+2                                            0
+3                                            0
+4                                            0
+5                                            0
+6                                            0
+7                                            0
+8                                            0
+9                                            0
+10                                           0
+   Enhancer_activity.Spleen.SRR577599 Enhancer_activity.Spleen.SRR1045578
+1                                 204                                 204
+2                                 193                                 193
+3                                 180                                 180
+4                                 669                                 669
+5                                 206                                 206
+6                                 102                                 102
+7                                4106                                4106
+8                                1148                                1148
+9                               10330                               10330
+10                               5811                                5811
+   Enhancer_activity.Spleen.SRR1045614 Enhancer_activity.ZR75.30.SRR2126497
+1                                  204                                  620
+2                                  193                                  617
+3                                  180                                  569
+4                                  669                                 1495
+5                                  206                                  729
+6                                  102                                  619
+7                                 4106                                17278
+8                                 1148                                 4609
+9                                10330                                26736
+10                                5811                                12848
+   Enhancer_activity.ZR75.30.SRR3090767 Enhancer_activity.ZR75.30.SRR3090769
+1                                   620                                  620
+2                                   617                                  617
+3                                   569                                  569
+4                                  1495                                 1495
+5                                   729                                  729
+6                                   619                                  619
+7                                 17278                                17278
+8                                  4609                                 4609
+9                                 26736                                26736
+10                                12848                                12848
+   Enhancer_activity.melanoma.SRR1556217 Enhancer_activity.melanoma.SRR1556218
+1                                    767                                   767
+2                                    775                                   775
+3                                    691                                   691
+4                                   1907                                  1907
+5                                    889                                   889
+6                                    668                                   668
+7                                  21002                                 21002
+8                                   5211                                  5211
+9                                  35021                                 35021
+10                                 15959                                 15959
+   Enhancer_activity.melanoma.SRR1556219 AS_type
+1                                    767    A5SS
+2                                    775    A3SS
+3                                    691      SE
+4                                   1907      RI
+5                                    889     MSE
+6                                    668     MXE
+7                                  21002     AFE
+8                                   5211     ALE
+9                                  35021    ATSS
+10                                 15959    ATTS

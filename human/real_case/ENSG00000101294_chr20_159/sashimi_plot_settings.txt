@@ -1,0 +1,255 @@
+[data]
+# directory where BAM files are
+bam_prefix = /home/shiauck/Bitsstor03/data_from_enhancerAtlas/v2/data_source/human/all/old/mapped_result/
+# directory where MISO output is
+miso_prefix = ./miso_result/
+
+bam_files = [
+    "CD19+/GSM1523489/SRR1609979.uniq.sorted.bam",
+    "CD19+/GSM1523490/SRR1609980.uniq.sorted.bam",
+    "CD19+/GSM1523491/SRR1609981.uniq.sorted.bam",
+    "GM12892/GSM1233973/SRR998261.uniq.sorted.bam",
+    "GM12892/GSM1233974/SRR998262.uniq.sorted.bam",
+
+    "H1/GSM1006724/SRR574820.uniq.sorted.bam",
+    "H1/GSM1006725/SRR574821.uniq.sorted.bam",
+    "MCF10A/GSM1944517/SRR2924726.uniq.sorted.bam",
+    "melanoma/GSM1484318/SRR1556217.uniq.sorted.bam",
+    "melanoma/GSM1484319/SRR1556218.uniq.sorted.bam",
+
+    "melanoma/GSM1484320/SRR1556219.uniq.sorted.bam",
+    "ZR75-30/GSM1832658/SRR2126497.uniq.sorted.bam",
+    "ZR75-30/GSM2029593/SRR3090767.uniq.sorted.bam",
+    "ZR75-30/GSM2029595/SRR3090769.uniq.sorted.bam",
+
+    "CD8+/GSM1060239/SRR644514.uniq.sorted.bam",
+    "GM10847/GSM1233883/SRR998171.uniq.sorted.bam",
+    "GM12891/GSM1233951/SRR998239.uniq.sorted.bam",
+    "GM18505/GSM1234006/SRR998294.uniq.sorted.bam",
+    "GM18526/GSM1234023/SRR998311.uniq.sorted.bam",
+
+    "HeLa-S3/GSM1155630/SRR891241.uniq.sorted.bam",
+    "Pancreatic_islet/GSM1261651/SRR1027728.uniq.sorted.bam",
+    "Pancreatic_islet/GSM1261652/SRR1027733.uniq.sorted.bam",
+    "Pancreatic_islet/GSM1261653/SRR1027738.uniq.sorted.bam",
+    "Spleen/GSM1010976/SRR577599.uniq.sorted.bam",
+
+    "Fetal_kidney/GSM1059510/SRR643749.uniq.sorted.bam",
+    "Fetal_kidney/GSM1059511/SRR643750.uniq.sorted.bam",
+    "Fetal_stomach/GSM1220587/SRR980467.uniq.sorted.bam",
+    "Fetal_stomach/GSM1220589/SRR980450.uniq.sorted.bam",
+    "GM18505/GSM484901/SRR038454.uniq.sorted.bam",
+
+    "GM19193/GSM484906/SRR038459.uniq.sorted.bam",
+    "HEK293T/GSM1220017/SRR960409.uniq.sorted.bam",
+    "HEK293T/GSM301568/SRR023853.uniq.sorted.bam",
+    "HEK293T/GSM301581/SRR023854.uniq.sorted.bam",
+    "HeLa-S3/GSM509054/SRR036660.uniq.sorted.bam",
+
+    "LHCN-M2/GSM2068359/SRR3181980.uniq.sorted.bam",
+    "LHCN-M2/GSM2068360/SRR3181981.uniq.sorted.bam",
+    "LHCN-M2/GSM2068361/SRR3181982.uniq.sorted.bam",
+    "Melanocyte/GSM1844543/SRR2146046.uniq.sorted.bam",
+    "Melanocyte/GSM1844544/SRR2146047.uniq.sorted.bam",
+
+    "Melanocyte/GSM1844545/SRR2146048.uniq.sorted.bam",
+    "SGBS_adipocyte/GSM1480370/SRR1552539.uniq.sorted.bam",
+    "SGBS_adipocyte/GSM1480371/SRR1552540.uniq.sorted.bam",
+    "SGBS_adipocyte/GSM1480372/SRR1552541.uniq.sorted.bam"]
+
+miso_files = [
+    "CD19+/GSM1523489/SRR1609979/SE",
+    "CD19+/GSM1523490/SRR1609980/SE",
+    "CD19+/GSM1523491/SRR1609981/SE",
+    "GM12892/GSM1233973/SRR998261/SE",
+    "GM12892/GSM1233974/SRR998262/SE",
+
+    "H1/GSM1006724/SRR574820/SE",
+    "H1/GSM1006725/SRR574821/SE",
+    "MCF10A/GSM1944517/SRR2924726/SE",
+    "melanoma/GSM1484318/SRR1556217/SE",
+    "melanoma/GSM1484319/SRR1556218/SE",
+
+    "melanoma/GSM1484320/SRR1556219/SE",
+    "ZR75-30/GSM1832658/SRR2126497/SE",
+    "ZR75-30/GSM2029593/SRR3090767/SE",
+    "ZR75-30/GSM2029595/SRR3090769/SE",
+
+    "CD8+/GSM1060239/SRR644514/SE",
+    "GM10847/GSM1233883/SRR998171/SE",
+    "GM12891/GSM1233951/SRR998239/SE",
+    "GM18505/GSM1234006/SRR998294/SE",
+    "GM18526/GSM1234023/SRR998311/SE",
+
+    "HeLa-S3/GSM1155630/SRR891241/SE",
+    "Pancreatic_islet/GSM1261651/SRR1027728/SE",
+    "Pancreatic_islet/GSM1261652/SRR1027733/SE",
+    "Pancreatic_islet/GSM1261653/SRR1027738/SE",
+    "Spleen/GSM1010976/SRR577599/SE",
+
+    "Fetal_kidney/GSM1059510/SRR643749/SE",
+    "Fetal_kidney/GSM1059511/SRR643750/SE",
+    "Fetal_stomach/GSM1220587/SRR980467/SE",
+    "Fetal_stomach/GSM1220589/SRR980450/SE",
+    "GM18505/GSM484901/SRR038454/SE",
+
+    "GM19193/GSM484906/SRR038459/SE",
+    "HEK293T/GSM1220017/SRR960409/SE",
+    "HEK293T/GSM301568/SRR023853/SE",
+    "HEK293T/GSM301581/SRR023854/SE",
+    "HeLa-S3/GSM509054/SRR036660/SE",
+
+    "LHCN-M2/GSM2068359/SRR3181980/SE",
+    "LHCN-M2/GSM2068360/SRR3181981/SE",
+    "LHCN-M2/GSM2068361/SRR3181982/SE",
+    "Melanocyte/GSM1844543/SRR2146046/SE",
+    "Melanocyte/GSM1844544/SRR2146047/SE",
+
+    "Melanocyte/GSM1844545/SRR2146048/SE",
+    "SGBS_adipocyte/GSM1480370/SRR1552539/SE",
+    "SGBS_adipocyte/GSM1480371/SRR1552540/SE",
+    "SGBS_adipocyte/GSM1480372/SRR1552541/SE"]
+
+[plotting]
+# Dimensions of figure to be plotted (in inches)
+fig_width = 7
+fig_height = 45
+# Factor to scale down introns and exons by
+intron_scale = 30
+exon_scale = 4
+# Whether to use a log scale or not when plotting
+logged = False
+font_size = 6
+
+# Max y-axis
+ymax = 100
+
+# Whether to plot posterior distributions inferred by MISO
+show_posteriors = True
+
+# Whether to show posterior distributions as bar summaries
+bar_posteriors = False
+
+# Whether to plot the number of reads in each junction
+number_junctions = True
+
+resolution = .5
+posterior_bins = 40
+gene_posterior_ratio = 5
+
+# List of colors for read denisites of each sample
+colors = [
+    "#CC0011",
+    "#CC0011",
+    "#CC0011",
+    "#CC0011",
+    "#CC0011",
+
+    "#CC0011",
+    "#CC0011",
+    "#CC0011",
+    "#CC0011",
+    "#CC0011",
+
+    "#CC0011",
+    "#CC0011",
+    "#CC0011",
+    "#CC0011",
+
+    "#AAAAAA",
+    "#AAAAAA",
+    "#AAAAAA",
+    "#AAAAAA",
+    "#AAAAAA",
+
+    "#AAAAAA",
+    "#AAAAAA",
+    "#AAAAAA",
+    "#AAAAAA",
+    "#AAAAAA",
+
+    "#009000",
+    "#009000",
+    "#009000",
+    "#009000",
+    "#009000",
+
+    "#009000",
+    "#009000",
+    "#009000",
+    "#009000",
+    "#009000",
+
+    "#009000",
+    "#009000",
+    "#009000",
+    "#009000",
+    "#009000",
+
+    "#009000",
+    "#009000",
+    "#009000",
+    "#009000"]
+
+# Number of mapped reads in each sample
+# (Used to normalize the read density for RPKM calculation)
+coverages = [
+    150260110,
+    112343540,
+    149141578,
+    42134784,
+    71010131,
+
+    264458201,
+    261293626,
+    78117924,
+    60240517,
+    68724110,
+
+    50342578,
+    49909096,
+    82849369,
+    73727484,
+
+    440527153,
+    59849743,
+    47922725,
+    47223197,
+    52415390,
+
+    108232570,
+    37267584,
+    12737303,
+    11168044,
+    57250266,
+
+    84643786,
+    121824362,
+    141023060,
+    74477624,
+    30141486,
+
+    27784634,
+    57643924,
+    5173538,
+    4911614,
+    15497378,
+
+    68722847,
+    76616471,
+    74783904,
+    68177726,
+    59189254,
+
+    66609916,
+    79817908,
+    86408460,
+    94990314]
+
+# Bar color for Bayes factor distribution
+# plots (--plot-bf-dist)
+# Paint them blue
+bar_color = "b"
+
+# Bayes factors thresholds to use for --plot-bf-dist
+bf_thresholds = [0, 1, 2, 5, 10, 20]

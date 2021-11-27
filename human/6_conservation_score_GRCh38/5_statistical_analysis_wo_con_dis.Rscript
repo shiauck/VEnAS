@@ -1,0 +1,25 @@
+#! Rscript
+
+as_type <- c("A5SS", "A3SS", "SE", "RI", "MSE", "MXE", "AFE", "ALE", "ATSS", "ATTS")
+
+for(as_i in 1:length(as_type)) {
+   f_name <- paste0(as_type[as_i], '.concordant.conservation_score.txt')
+   df <- data.frame(read.table(f_name, header=F, sep="\t"))
+   df1 <- data.frame(conservation = df[!is.na(df)], type = "Associated")
+   x1 <- df[!is.na(df)]
+
+   f_name <- paste0(as_type[as_i], '.discordant.conservation_score.txt')
+   df <- data.frame(read.table(f_name, header=F, sep="\t"))
+   df2 <- data.frame(conservation = df[!is.na(df)], type = "Associated")
+   x2 <- df[!is.na(df)]
+
+   f_name <- paste0(as_type[as_i], '.no_significant.conservation_score.txt')
+   df <- data.frame(read.table(f_name, header=F, sep="\t"))
+   df3 <- data.frame(conservation = df[!is.na(df)], type = "Non-associated")
+   x3 <- df[!is.na(df)]
+
+   message(as_type[as_i])
+   message(paste0("\tAssociated > non-associated: ", t.test(c(x1, x2), x3, alt="greater")$p.value))
+   message(paste0("\tAssociated < non-associated: ", t.test(c(x1, x2), x3, alt="less")$p.value))
+}
+

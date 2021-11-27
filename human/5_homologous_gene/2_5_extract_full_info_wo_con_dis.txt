@@ -1,0 +1,90 @@
+A3SS:
+human       associated            genes: 327
+human-mouse associated homologous genes: 25
+mouse       associated            genes: 315
+human       non-associated            genes: 397
+human-mouse non-associated homologous genes: 31
+mouse       non-associated            genes: 411
+
+
+A5SS:
+human       associated            genes: 310
+human-mouse associated homologous genes: 33
+mouse       associated            genes: 541
+human       non-associated            genes: 422
+human-mouse non-associated homologous genes: 6
+mouse       non-associated            genes: 148
+
+
+SE:
+human       associated            genes: 367
+human-mouse associated homologous genes: 57
+mouse       associated            genes: 1158
+human       non-associated            genes: 1039
+human-mouse non-associated homologous genes: 51
+mouse       non-associated            genes: 372
+
+
+RI:
+human       associated            genes: 579
+human-mouse associated homologous genes: 105
+mouse       associated            genes: 939
+human       non-associated            genes: 398
+human-mouse non-associated homologous genes: 12
+mouse       non-associated            genes: 271
+
+
+MSE:
+human       associated            genes: 276
+human-mouse associated homologous genes: 21
+mouse       associated            genes: 370
+human       non-associated            genes: 353
+human-mouse non-associated homologous genes: 6
+mouse       non-associated            genes: 114
+
+
+MXE:
+human       associated            genes: 209
+human-mouse associated homologous genes: 12
+mouse       associated            genes: 214
+human       non-associated            genes: 100
+human-mouse non-associated homologous genes: 1
+mouse       non-associated            genes: 33
+
+
+ATSS:
+human       associated            genes: 2441
+human-mouse associated homologous genes: 1157
+mouse       associated            genes: 4967
+human       non-associated            genes: 1107
+human-mouse non-associated homologous genes: 56
+mouse       non-associated            genes: 626
+
+
+ATTS:
+human       associated            genes: 1890
+human-mouse associated homologous genes: 1096
+mouse       associated            genes: 6167
+human       non-associated            genes: 2121
+human-mouse non-associated homologous genes: 161
+mouse       non-associated            genes: 991
+
+
+AFE:
+human       associated            genes: 1578
+human-mouse associated homologous genes: 404
+mouse       associated            genes: 2251
+human       non-associated            genes: 543
+human-mouse non-associated homologous genes: 22
+mouse       non-associated            genes: 392
+
+
+ALE:
+human       associated            genes: 860
+human-mouse associated homologous genes: 158
+mouse       associated            genes: 1762
+human       non-associated            genes: 998
+human-mouse non-associated homologous genes: 35
+mouse       non-associated            genes: 408
+
+

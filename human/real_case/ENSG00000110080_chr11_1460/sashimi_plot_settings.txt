@@ -1,0 +1,132 @@
+[data]
+# directory where BAM files are
+bam_prefix = /home/shiauck/Bitsstor03/data_from_enhancerAtlas/v2/data_source/human/all/old/mapped_result/
+# directory where MISO output is
+miso_prefix = ./miso_result/
+
+bam_files = [
+    "H1/GSM1006724/SRR574820.uniq.sorted.bam",
+    "H1/GSM1006725/SRR574821.uniq.sorted.bam",
+    "melanoma/GSM1484318/SRR1556217.uniq.sorted.bam",
+    "melanoma/GSM1484319/SRR1556218.uniq.sorted.bam",
+    "melanoma/GSM1484320/SRR1556219.uniq.sorted.bam",
+
+    "ZR75-30/GSM1832658/SRR2126497.uniq.sorted.bam",
+    "ZR75-30/GSM2029593/SRR3090767.uniq.sorted.bam",
+    "ZR75-30/GSM2029595/SRR3090769.uniq.sorted.bam",
+
+    "CD14+/GSM1126519/SRR830953.uniq.sorted.bam",
+    "CD8+/GSM1577755/SRR1743975.uniq.sorted.bam",
+    "GM10847/GSM484893/SRR038446.uniq.sorted.bam",
+    "GM10847/GSM484894/SRR038447.uniq.sorted.bam",
+    "GM18526/GSM484902/SRR038455.uniq.sorted.bam",
+
+    "H9/GSM602289/SRR067368.uniq.sorted.bam",
+    "HeLa-S3/GSM1155630/SRR891241.uniq.sorted.bam",
+    "HeLa-S3/GSM509055/SRR036661.uniq.sorted.bam",
+    "K562/GSM648589/SRR090233.uniq.sorted.bam"]
+
+miso_files = [
+    "H1/GSM1006724/SRR574820/SE",
+    "H1/GSM1006725/SRR574821/SE",
+    "melanoma/GSM1484318/SRR1556217/SE",
+    "melanoma/GSM1484319/SRR1556218/SE",
+    "melanoma/GSM1484320/SRR1556219/SE",
+
+    "ZR75-30/GSM1832658/SRR2126497/SE",
+    "ZR75-30/GSM2029593/SRR3090767/SE",
+    "ZR75-30/GSM2029595/SRR3090769/SE",
+
+    "CD14+/GSM1126519/SRR830953/SE",
+    "CD8+/GSM1577755/SRR1743975/SE",
+    "GM10847/GSM484893/SRR038446/SE",
+    "GM10847/GSM484894/SRR038447/SE",
+    "GM18526/GSM484902/SRR038455/SE",
+
+    "H9/GSM602289/SRR067368/SE",
+    "HeLa-S3/GSM1155630/SRR891241/SE",
+    "HeLa-S3/GSM509055/SRR036661/SE",
+    "K562/GSM648589/SRR090233/SE"]
+
+[plotting]
+# Dimensions of figure to be plotted (in inches)
+fig_width = 5
+fig_height = 20
+# Factor to scale down introns and exons by
+intron_scale = 30
+exon_scale = 4
+# Whether to use a log scale or not when plotting
+logged = True
+font_size = 6
+
+# Max y-axis
+#ymax = 100
+ymax = 3
+
+# Whether to plot posterior distributions inferred by MISO
+show_posteriors = True
+
+# Whether to show posterior distributions as bar summaries
+bar_posteriors = False
+
+# Whether to plot the number of reads in each junction
+number_junctions = True
+
+resolution = .5
+posterior_bins = 40
+gene_posterior_ratio = 5
+
+# List of colors for read denisites of each sample
+colors = [
+    "#CC0011",
+    "#CC0011",
+    "#CC0011",
+    "#CC0011",
+    "#CC0011",
+
+    "#CC0011",
+    "#CC0011",
+    "#CC0011",
+
+    "#009000",
+    "#009000",
+    "#009000",
+    "#009000",
+    "#009000",
+
+    "#009000",
+    "#009000",
+    "#009000",
+    "#009000"]
+
+# Number of mapped reads in each sample
+# (Used to normalize the read density for RPKM calculation)
+coverages = [
+    264458201,
+    261293626,
+    60240517,
+    68724110,
+    50342578,
+
+    49909096,
+    82849369,
+    73727484,
+
+    28109136,
+    80629354,
+    33378220,
+    29506552,
+    32605046,
+
+    45088242,
+    108232570,
+    15243482,
+    20820214]
+
+# Bar color for Bayes factor distribution
+# plots (--plot-bf-dist)
+# Paint them blue
+bar_color = "b"
+
+# Bayes factors thresholds to use for --plot-bf-dist
+bf_thresholds = [0, 1, 2, 5, 10, 20]

@@ -1,0 +1,203 @@
+[data]
+# directory where BAM files are
+bam_prefix = /home/shiauck/Bitsstor03/data_from_enhancerAtlas/v2/data_source/human/all/old/mapped_result/
+# directory where MISO output is
+miso_prefix = ./miso_result/
+
+bam_files = [
+    "CD19+/GSM1523489/SRR1609979.uniq.sorted.bam",
+    "CD19+/GSM1523490/SRR1609980.uniq.sorted.bam",
+    "CD19+/GSM1523491/SRR1609981.uniq.sorted.bam",
+    "GM12891/GSM1233952/SRR998240.uniq.sorted.bam",
+    "GM12892/GSM1233974/SRR998262.uniq.sorted.bam",
+
+    "GM18505/GSM1234006/SRR998294.uniq.sorted.bam",
+    "GM18526/GSM1234023/SRR998311.uniq.sorted.bam",
+    "GM19193/GSM1234074/SRR998362.uniq.sorted.bam",
+    "GM19193/GSM1234075/SRR998363.uniq.sorted.bam",
+    "K562/GSM1940169/SRR2921248.uniq.sorted.bam",
+
+    "GM19099/GSM1234057/SRR998345.uniq.sorted.bam",
+    "HeLa-S3/GSM1155630/SRR891241.uniq.sorted.bam",
+    "LNCaP/GSM1328161/SRR1169709.uniq.sorted.bam",
+
+    "Fetal_heart/GSM1059494/SRR643778.uniq.sorted.bam",
+    "Fetal_heart/GSM1059495/SRR643779.uniq.sorted.bam",
+    "Fetal_kidney/GSM1059510/SRR643749.uniq.sorted.bam",
+    "Fetal_kidney/GSM1059511/SRR643750.uniq.sorted.bam",
+    "Fetal_kidney/GSM1059512/SRR643751.uniq.sorted.bam",
+
+    "Fetal_stomach/GSM1220587/SRR980467.uniq.sorted.bam",
+    "Fetal_stomach/GSM1220589/SRR980450.uniq.sorted.bam",
+    "H1/GSM1006724/SRR574820.uniq.sorted.bam",
+    "H1/GSM1006725/SRR574821.uniq.sorted.bam",
+    "H9/GSM2175118/SRR3573989.uniq.sorted.bam",
+
+    "Melanocyte/GSM1844544/SRR2146047.uniq.sorted.bam",
+    "Melanocyte/GSM1844545/SRR2146048.uniq.sorted.bam",
+    "Pancreatic_islet/GSM1261651/SRR1027728.uniq.sorted.bam",
+    "Pancreatic_islet/GSM1261652/SRR1027733.uniq.sorted.bam",
+    "Pancreatic_islet/GSM1261653/SRR1027738.uniq.sorted.bam",
+
+    "Spleen/GSM1010976/SRR577599.uniq.sorted.bam",
+    "Spleen/GSM1120316/SRR1045578.uniq.sorted.bam",
+    "Spleen/GSM1120317/SRR1045614.uniq.sorted.bam",
+    "ZR75-30/GSM2029593/SRR3090767.uniq.sorted.bam"]
+
+miso_files = [
+    "CD19+/GSM1523489/SRR1609979/SE",
+    "CD19+/GSM1523490/SRR1609980/SE",
+    "CD19+/GSM1523491/SRR1609981/SE",
+    "GM12891/GSM1233952/SRR998240/SE",
+    "GM12892/GSM1233974/SRR998262/SE",
+
+    "GM18505/GSM1234006/SRR998294/SE",
+    "GM18526/GSM1234023/SRR998311/SE",
+    "GM19193/GSM1234074/SRR998362/SE",
+    "GM19193/GSM1234075/SRR998363/SE",
+    "K562/GSM1940169/SRR2921248/SE",
+
+    "GM19099/GSM1234057/SRR998345/SE",
+    "HeLa-S3/GSM1155630/SRR891241/SE",
+    "LNCaP/GSM1328161/SRR1169709/SE",
+
+    "Fetal_heart/GSM1059494/SRR643778/SE",
+    "Fetal_heart/GSM1059495/SRR643779/SE",
+    "Fetal_kidney/GSM1059510/SRR643749/SE",
+    "Fetal_kidney/GSM1059511/SRR643750/SE",
+    "Fetal_kidney/GSM1059512/SRR643751/SE",
+
+    "Fetal_stomach/GSM1220587/SRR980467/SE",
+    "Fetal_stomach/GSM1220589/SRR980450/SE",
+    "H1/GSM1006724/SRR574820/SE",
+    "H1/GSM1006725/SRR574821/SE",
+    "H9/GSM2175118/SRR3573989/SE",
+
+    "Melanocyte/GSM1844544/SRR2146047/SE",
+    "Melanocyte/GSM1844545/SRR2146048/SE",
+    "Pancreatic_islet/GSM1261651/SRR1027728/SE",
+    "Pancreatic_islet/GSM1261652/SRR1027733/SE",
+    "Pancreatic_islet/GSM1261653/SRR1027738/SE",
+
+    "Spleen/GSM1010976/SRR577599/SE",
+    "Spleen/GSM1120316/SRR1045578/SE",
+    "Spleen/GSM1120317/SRR1045614/SE",
+    "ZR75-30/GSM2029593/SRR3090767/SE"]
+
+[plotting]
+# Dimensions of figure to be plotted (in inches)
+fig_width = 7
+fig_height = 20
+# Factor to scale down introns and exons by
+intron_scale = 30
+exon_scale = 4
+# Whether to use a log scale or not when plotting
+logged = False
+font_size = 6
+
+# Max y-axis
+ymax = 10
+
+# Whether to plot posterior distributions inferred by MISO
+show_posteriors = True
+
+# Whether to show posterior distributions as bar summaries
+bar_posteriors = False
+
+# Whether to plot the number of reads in each junction
+number_junctions = True
+
+resolution = .5
+posterior_bins = 40
+gene_posterior_ratio = 5
+
+# List of colors for read denisites of each sample
+colors = [
+    "#CC0011",
+    "#CC0011",
+    "#CC0011",
+    "#CC0011",
+    "#CC0011",
+
+    "#CC0011",
+    "#CC0011",
+    "#CC0011",
+    "#CC0011",
+    "#CC0011",
+
+    "#AAAAAA",
+    "#AAAAAA",
+    "#AAAAAA",
+
+    "#009000",
+    "#009000",
+    "#009000",
+    "#009000",
+    "#009000",
+
+    "#009000",
+    "#009000",
+    "#009000",
+    "#009000",
+    "#009000",
+
+    "#009000",
+    "#009000",
+    "#009000",
+    "#009000",
+    "#009000",
+
+    "#009000",
+    "#009000",
+    "#009000",
+    "#009000"]
+
+# Number of mapped reads in each sample
+# (Used to normalize the read density for RPKM calculation)
+coverages = [
+    150260110,
+    112343540,
+    149141578,
+    40533845,
+    71010131,
+
+    47223197,
+    52415390,
+    53804866,
+    41513893,
+    94404567,
+
+    51959932,
+    108232570,
+    137247934,
+
+    134304442,
+    92533124,
+    84643786,
+    121824362,
+    93290174,
+
+    141023060,
+    74477624,
+    264458201,
+    261293626,
+    38799368,
+
+    59189254,
+    66609916,
+    37267584,
+    12737303,
+    11168044,
+
+    57250266,
+    12428754,
+    12815357,
+    82849369]
+
+# Bar color for Bayes factor distribution
+# plots (--plot-bf-dist)
+# Paint them blue
+bar_color = "b"
+
+# Bayes factors thresholds to use for --plot-bf-dist
+bf_thresholds = [0, 1, 2, 5, 10, 20]

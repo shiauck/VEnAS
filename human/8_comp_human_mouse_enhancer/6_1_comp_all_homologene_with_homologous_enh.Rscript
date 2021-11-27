@@ -1,0 +1,99 @@
+#! /home/shiauck/bin/Rscript
+
+AS_type <- c("A5SS", "A3SS", "SE", "RI", "MSE", "MXE", "AFE", "ALE", "ATSS", "ATTS")
+
+mapping_df <- data.frame(read.table("/home/shiauck/Bitsstor03/data_for_conservation/MGI_homology/human_mouse_homologenes_in_Ensembl_ID.txt", header=F, sep="\t"))
+names(mapping_df) <- c("HGNC_id", "human_gid", "MGI_id", "mouse_gid")
+mapping_df <- mapping_df[which(mapping_df$mouse_gid != "null"), ]
+mapping_df <- mapping_df[which(mapping_df$human_gid != ""),]
+mapping_df <- mapping_df[which(mapping_df$mouse_gid != ""),]
+
+human_mouse_enh_df <- data.frame(read.table("human_enh_ovlap_mouse_enh.reduced.sorted.txt", sep=";"))
+names(human_mouse_enh_df) <- c("human_enh_id", "mouse_enh_id")
+
+#length(mapping_df[,1])
+#[1] 16433
+
+counting_df <- data.frame()
+
+for(i in 1:length(AS_type)) {
+
+   message(paste0("Processing ", AS_type[i], "...\n"))
+
+   human_res_f_name <- paste0("../7_comp_bt_human_mouse_on_spleen/full_table.", AS_type[i], ".txt")
+   human_fdr_f_name <- paste0("../3_enh_ae_psi_comp/res_2tailed/", AS_type[i], ".stat.txt")
+
+   human_res_df <- data.frame(read.table(human_res_f_name, header=T, sep="\t"))
+   human_fdr_df <- data.frame(read.table(human_fdr_f_name, header=T, sep="\t"))
+   human_merge_df <- merge(x=human_res_df,
+                           y=human_fdr_df[, c("Ensembl.Gene.ID", "Enhancer.grp", "AE_nth", "q_fdr")],
+                           by.x=c("Ensembl.Gene.ID", "Enhancer.grp", "AE_nth"),
+                           by.y=c("Ensembl.Gene.ID", "Enhancer.grp", "AE_nth"),
+                           all.x=T)
+   length(unique(human_merge_df$Ensembl.Gene.ID))
+   # [1] 5467
+   rm(human_res_df)
+   rm(human_fdr_df)
+
+   human_gene_w_homologous_enh_df <- human_merge_df[which(human_merge_df$Enhancer.grp %in% unique(human_mouse_enh_df$human_enh_id)), ]
+   length(unique(human_gene_w_homologous_enh_df$Ensembl.Gene.ID))
+   # [1] 5007
+   rm(human_merge_df)
+
+   human_gene_w_homologous_enh <- data.frame(human_gene = unique(human_gene_w_homologous_enh_df$Ensembl.Gene.ID),
+                                             human_gid  = unique(human_gene_w_homologous_enh_df$Ensembl.Gene.ID))
+   rm(human_gene_w_homologous_enh_df)
+
+
+   mouse_res_f_name <- paste0("../../../mouse/all/7_comp_bt_human_mouse_on_spleen/full_table.", AS_type[i], ".txt")
+   mouse_fdr_f_name <- paste0("../../../mouse/all/3_enh_ae_psi_comp/res_2tailed/", AS_type[i], ".stat.txt")
+
+   mouse_res_df <- data.frame(read.table(mouse_res_f_name, header=T, sep="\t"))
+   mouse_fdr_df <- data.frame(read.table(mouse_fdr_f_name, header=T, sep="\t"))
+   mouse_merge_df <- merge(x=mouse_res_df,
+                           y=mouse_fdr_df[, c("Ensembl.Gene.ID", "Enhancer.grp", "AE_nth", "q_fdr")],
+                           by.x=c("Ensembl.Gene.ID", "Enhancer.grp", "AE_nth"),
+                           by.y=c("Ensembl.Gene.ID", "Enhancer.grp", "AE_nth"),
+                           all.x=T)
+   length(unique(mouse_merge_df$Ensembl.Gene.ID))
+   # [1] 7911
+   rm(mouse_res_df)
+   rm(mouse_fdr_df)
+
+   mouse_gene_w_homologous_enh_df <- mouse_merge_df[mouse_merge_df$Enhancer.grp %in% unique(human_mouse_enh_df$mouse_enh_id),]
+   length(unique(mouse_gene_w_homologous_enh_df$Ensembl.Gene.ID))
+   # [1] 7453
+   rm(mouse_merge_df)
+
+   mouse_gene_w_homologous_enh <- data.frame(mouse_gene = unique(mouse_gene_w_homologous_enh_df$Ensembl.Gene.ID),
+                                             mouse_gid  = unique(mouse_gene_w_homologous_enh_df$Ensembl.Gene.ID))
+   rm(mouse_gene_w_homologous_enh_df)
+
+
+   all_gene_w_homologous_enh_merge <-
+      merge(x=human_gene_w_homologous_enh,
+            y=mapping_df[, c("human_gid", "mouse_gid")],
+            by.x=c("human_gid"),
+            by.y=c("human_gid"),
+            all=T)
+
+   all_gene_w_homologous_enh_merge_df <-
+      merge(x=all_gene_w_homologous_enh_merge,
+            y=mouse_gene_w_homologous_enh,
+            by.x=c("mouse_gid"),
+            by.y=c("mouse_gid"),
+            all=T)
+
+   final_df <- all_gene_w_homologous_enh_merge_df[which(!(is.na(all_gene_w_homologous_enh_merge_df$human_gene) & is.na(all_gene_w_homologous_enh_merge_df$mouse_gene))),]
+   rm(all_gene_w_homologous_enh_merge)
+   rm(all_gene_w_homologous_enh_merge_df)
+
+   counting_df <- rbind(counting_df,
+                     data.frame(AS_type=AS_type[i],
+                                human_only = length(final_df[which(!is.na(final_df$human_gene) &  is.na(final_df$mouse_gene)), 1]),
+                                shared     = length(final_df[which(!is.na(final_df$human_gene) & !is.na(final_df$mouse_gene)), 1]),
+                                mouse_only = length(final_df[which( is.na(final_df$human_gene) & !is.na(final_df$mouse_gene)), 1])))
+}
+
+print(counting_df)
+
