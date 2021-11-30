@@ -1,0 +1,47 @@
+#! /usr/bin/Rscript
+
+library(reshape2)
+
+total_list <- data.frame(read.table("conf/reads_list.txt", header=T, sep="\t"))
+
+tmp_list <- data.frame(read.table("6_1_list.txt", header=F, sep="\t"))
+tmp_list <- as.character(tmp_list$V1)
+
+list <- total_list[which(total_list$SRR_acc %in% tmp_list), 1:3]
+
+psi_df <- data.frame()
+
+for(i in 1:length(list[,1])) {
+   id <- paste(list[i, "tissue_name"], "_", list[i, "GSM_acc"], "_", list[i, "SRR_acc"], sep="")
+   f_name <- paste("miso_result/", id, ".psi.txt", sep="")
+   message(paste("Processing ", f_name, " ...", sep=""))
+   tmp_df <- data.frame(read.table(f_name, header=F, sep="\t"))
+   tmp_df[, "V3"] <- id
+   psi_df <- rbind(psi_df, tmp_df)
+}
+names(psi_df) <- c("gene_id", "nth", "tissue", "type", "psi")
+
+#===all===
+psi_zt_df <- psi_df
+psi_zt_df$ID <- paste(psi_zt_df$gene_id, psi_zt_df$type, psi_zt_df$nth, sep="_")
+psi_zt_df <- psi_zt_df[, c("ID", "tissue", "psi")]
+psi_zt_dcast_df <- dcast(psi_zt_df, formula = ID ~ tissue, value.var = c("psi"))
+   #===z-transform===
+psi_zt_dcast_df$mean <- apply(psi_zt_dcast_df[, 2:length(psi_zt_dcast_df)], 1, function(x) {
+                        return(mean(as.numeric(x), na.rm=T))})
+psi_zt_dcast_df$sd   <- apply(psi_zt_dcast_df[, 2:length(psi_zt_dcast_df)], 1, function(x) {
+                        return(sd(as.numeric(x), na.rm=T))})
+
+zt_df = psi_zt_dcast_df
+for(i in 2:(length(psi_zt_dcast_df) - 2)) {
+   message(paste("Processing ", (i - 1), ": ", names(zt_df)[i], "...", sep=""))
+   zt_df[, i] <- apply(zt_df, 1, function(x) {
+                    (as.numeric(x[i]) - as.numeric(x["mean"])) / as.numeric(x["sd"])
+                 })
+}
+   #===remove rows which have any NA===
+#zt_df <- zt_df[apply(!is.na(zt_df), 1, FUN=all),]
+write.table(zt_df, file="6_1_all_tissue_ztransform_psi.table", row.names=F, col.names=T, quote=F, sep="\t")
+#===all===
+
+
