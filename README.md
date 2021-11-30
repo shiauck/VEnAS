@@ -1,4 +1,4 @@
-# VEnAS
+# Scripts and data source list for VEnAS
 
 Scripts for downloading and mapping sequencing data sets are provided under folder "mapping_daemon".
 
